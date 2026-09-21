@@ -1,5 +1,5 @@
 ---
-name: seedance
+name: seedance-video-prompt-director
 description: "The single Seedance 2.0 video prompt director. Converts scene descriptions into production-ready prompts with locked spatial blocking, FOV-degree optics, lighting priority, physics, and continuity control. Routes across capabilities (consistency control, camera replication, VFX template, story completion, sound control, one-take, beat sync, first/last frame), formats (multi-shot, continuous, POV/orb, animation), and genre registers (commercial, cinematic, action, horror, UGC, explainer, viral, documentary, short-drama, fantasy, science, music-video). Use whenever the user wants a Seedance prompt, mentions Seedance, describes a shot for video generation, asks for a cinematic scene breakdown, or requests commercial, ad, action, music-video, UGC or explainer video prompts. Supersedes seedance-director, seedance-cinematic and cinema-worldbuilder-pro-30 — this is the only Seedance skill."
 ---
 
@@ -18,7 +18,7 @@ Two habits separate prompts that land from prompts that drift. **Diagnose before
 Progressive disclosure. This file holds the workflow, the universal law, and the router. Read the reference files that match the request, not all of them.
 
 ```
-seedance/
+seedance-video-prompt-director/
 ├── SKILL.md                        ← you are here
 └── references/
     ├── diagnose.md                 ← risk table, run before writing (near-always)

@@ -1,4 +1,4 @@
-# My skills
+# Produced by Chi skills
 
 This is my personal collection of reusable agent skills. Each skill has its own `SKILL.md`, plus any reference material, templates, or scripts it needs.
 
@@ -7,7 +7,7 @@ The skills use the standard `SKILL.md` format, so they can work with Codex, Clau
 ## What is included
 
 - [YouTube thumbnail generator](skills/youtube-thumbnail-generator/SKILL.md) creates, reviews, and improves YouTube thumbnails with a native image tool or a paste-ready prompt package.
-- [Seedance](skills/seedance/SKILL.md) turns a video brief into a detailed Seedance 2.0 prompt. Its reference guides cover camera work, continuity, lighting, genre, and Seedance capabilities.
+- [Seedance video prompt director](skills/seedance-video-prompt-director/SKILL.md) turns a video brief into a detailed Seedance 2.0 prompt. Its reference guides cover camera work, continuity, lighting, genre, and Seedance capabilities.
 
 ## How to use a skill
 
