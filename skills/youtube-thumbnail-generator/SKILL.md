@@ -37,11 +37,28 @@ Before rendering, write a short internal direction card:
 - **Assets that must match:** identities, products, characters, logos, or wardrobe that matter to the idea.
 - **Title relationship:** what the title explains and what the image adds. Decide whether a short headline improves that relationship.
 
+### Built-in concept playbook
+
+Use these as starting points when the user has not supplied a direction. Pick the visual promise that fits the actual video and its audience. A creator's successful style is evidence to study, not a template to copy.
+
+| Video type | First visual ideas to consider |
+| --- | --- |
+| Challenge or journey | Show the constraint, obstacle, decisive action, or visible stakes. Let the viewer see what must be overcome. |
+| Tutorial or transformation | Show the useful result, the action that produces it, or a truthful before-and-after difference. Make the benefit concrete. |
+| Explainer or discovery | Show the surprising object, apparent contradiction, or scale contrast that makes the question worth answering. |
+| Product, food, or review | Show the real product in use, a revealing detail, or the choice being tested. A package or logo belongs only when it helps explain the story. |
+| Brand film or behind the scenes | Show the strongest human moment, process, or result from the production. Preserve the film's visual world when that world is part of the appeal. |
+| Interview or profile | Show a recognizable subject and the specific relationship, claim, or moment that makes this conversation distinct. |
+
+For each plausible direction, ask what a new viewer understands in one glance, what remains interesting after reading the title, and whether the video delivers the implied promise. Compare rough concepts before rendering. Favor a clean, honest scene over an exaggerated expression or busy collage when it communicates better. Use text when a few words add information the image and title do not already provide. The best starting point can be a source frame rather than a generated scene.
+
+This playbook draws on [YouTube's audience and thumbnail guidance](https://support.google.com/youtube/answer/12340300), [Chucky Appleby's discussion of clarity and prototyping](https://www.youtube.com/watch?v=HP-rqigfw2s), [Ryan Trahan's account of simple, truthful images and complementary text](https://blog.youtube/creator-and-artist-stories/ryan-trahan-thumbnail-editing-secrets-to-going-viral/), and [Derek Muller's account of making the video's subject clear through its title and thumbnail](https://www.wired.com/video/watch/autocomplete-interviews-veritasiums-derek-muller-answers-the-webs-most-searched-questions). These are useful practices, not a promise of a particular click-through rate.
+
 Privately consider several plausible directions, then choose one lead direction. Generate one lead image by default. Add one alternative only when it tests a genuinely different visual question supported by the project. Do not turn minor changes of color, crop, expression, or copy into separate concepts.
 
 Ask one compact question only when a missing answer would change the idea, such as an unchosen real person, a missing must-match product, a genuinely unclear viewer, or a brand decision the project cannot answer. Do not ask the user to choose a research level for ordinary work.
 
-Run a current spot-check only when the project's own evidence cannot resolve a competitive, unfamiliar, niche, or fast-moving category. Inspect up to three relevant examples. Run deeper research only on request, for a launch or rebrand, or for a strategic review.
+Use the built-in playbook without a web research pass for ordinary work. Run a current spot-check when the project's own evidence cannot resolve a competitive, unfamiliar, niche, or fast-moving category. Inspect up to three relevant examples, preferably videos the intended audience watches. Treat view count as a lead for closer study, not proof that the thumbnail caused it. Run deeper research only on request, for a launch or rebrand, or for a strategic review.
 
 ## 2. Plan references and render the image
 
@@ -91,3 +108,4 @@ If one check fails, make a targeted revision and repeat all three checks. Retry 
 When the user asks for a YouTube Test & Compare set, create exactly three upload-ready 16:9 candidates. Hold the video's truthful promise constant and change one major packaging decision per candidate. State the hypothesis for each. A real YouTube result determines a winner. Until then, call any recommendation a hypothesis.
 
 Save project-bound images to a versioned project location without overwriting earlier work. Deliver each viable image with a short label, its direction card in plain language, and why it fits the project evidence. When the user asks for one final image, select the strongest reviewed candidate and explain the choice.
+
