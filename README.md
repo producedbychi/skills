@@ -6,7 +6,7 @@ The skills use the standard `SKILL.md` format, so they can work with Codex, Clau
 
 ## What is included
 
-- [Preproduction workflow](skills/preproduction-workflow/SKILL.md) is one skill with brief, treatment, breakdown, and paperwork modes. It can define a project from scratch, develop a creative direction, plan shots and resources, and draft estimates, scope documents, rights registers, and invoices. Legal and tax terms need qualified review.
+- [Preproduction workflow](skills/preproduction-workflow/SKILL.md) is one skill with brief, treatment, AV script, breakdown, and paperwork modes. It can define a project from scratch, develop a creative direction, write a two-column audio and video script, plan shots and resources, and draft the business documents relevant to the project stage. Legal and tax terms need qualified review.
 - [YouTube thumbnail generator](skills/youtube-thumbnail-generator/SKILL.md) creates, reviews, and improves YouTube thumbnails with a native image tool or a paste-ready prompt package.
 - [Seedance video director](skills/seedance-video-director/SKILL.md) turns a video brief into a detailed Seedance 2.0 prompt. Its reference guides cover camera work, continuity, lighting, genre, and Seedance capabilities.
 
@@ -16,7 +16,7 @@ The skills use the standard `SKILL.md` format, so they can work with Codex, Clau
 2. Copy the whole skill folder into your agent's custom-skills directory. Keep its `SKILL.md` and every supporting file together.
 3. Start a new task and name the skill, or describe work that matches its purpose.
 
-Install `preproduction-workflow` as one folder. Its modes live in `references/`, so there are no other skill dependencies. Ask for a creative brief, treatment, breakdown, specific project document, or the full workflow. The full workflow can begin with only a project idea; it marks unapproved choices as provisional.
+Install `preproduction-workflow` as one folder. Its modes live in `references/`, so there are no other skill dependencies. Ask for a creative brief, treatment, AV script, breakdown, specific project document, or the full workflow. The full workflow can begin with only a project idea; it marks unapproved choices as provisional and lists what is ready, pending, or not relevant. Supply approved company details and templates with the project when you need business documents. The public skill does not include private rates, payment details, or contract terms.
 
 For example, install `skills/seedance-video-director/` as a complete folder. Do not copy only its `SKILL.md`, because it reads files in `references/` when it needs them.
 

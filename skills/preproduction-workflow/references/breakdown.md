@@ -1,6 +1,6 @@
 # Breakdown mode
 
-The breakdown turns a treatment, script, or approved concept into material the team can capture, obtain, or create. If no treatment exists, work from the supplied brief and mark creative decisions `provisional`. Do not invent a treatment just to satisfy an order of operations.
+The breakdown turns a treatment, script, or approved concept into material the team can capture, obtain, or create. In `full`, use the [AV script](script.md) as the beat map. For a standalone breakdown without a script, work from the supplied direction and mark creative decisions `provisional`. Do not invent a treatment just to satisfy an order of operations.
 
 ## Build the plan
 
@@ -28,7 +28,7 @@ Deliver the shot or asset table plus the supporting information the team actuall
 - Risks and alternatives for material that may not be available.
 - A clear distinction between confirmed bookings or dates and proposed plans.
 
-If a script or storyboard would clarify timing, include one only when requested or needed to resolve an actual production ambiguity. A two-column picture and sound outline can be enough. Do not add a full call sheet, production schedule, or technical specification by default.
+For a standalone breakdown, include a script or storyboard only when requested or needed to resolve an actual production ambiguity. Do not add a full call sheet, production schedule, or technical specification by default.
 
 ## Quality check
 
