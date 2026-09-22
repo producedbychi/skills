@@ -1,6 +1,6 @@
 # Produced by Chi skills
 
-This is my personal collection of reusable agent skills. Each skill has its own `SKILL.md`, plus any reference material, templates, or scripts it needs.
+This is my personal collection of reusable AI skills and creative workflows for video, social content, and visual storytelling. Each skill has its own `SKILL.md`, plus any reference material, templates, or scripts it needs.
 
 The skills use the standard `SKILL.md` format, so they can work with Codex, Claude, and other agents that support custom skills.
 
