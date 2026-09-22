@@ -1,139 +1,93 @@
 ---
 name: youtube-thumbnail-generator
-description: Create, refine, or brief YouTube thumbnails through an available native image tool or a paste-ready prompt package. Use for YouTube video covers and click-focused concepts, not generic images or video editing.
+description: Create, refine, or brief truthful YouTube thumbnails through an available image tool or a paste-ready prompt package. Use for long-form YouTube covers, YouTube Test & Compare sets, and thumbnail revisions. Do not use for generic images, video editing, or unrelated social graphics.
 ---
 
 # YouTube thumbnail generator
 
-Create a finished, truthful YouTube thumbnail that is clear in a crowded feed and in YouTube's TV interface. Choose a production route that fits the user's tools and preference.
+Make a specific, upload-ready thumbnail. The work has three separate layers: decide the visual idea, make the image, then finish and inspect it. Do not let a prompt formula substitute for a project-specific creative decision.
 
-## Choose a production route
+## Choose a route
 
-Use the route the user names. If they have not chosen one, use an available native image tool. When no image tool is available, or when the user wants to work in another generator, deliver a prompt package instead of changing providers on their behalf.
+Use the route the user names. Otherwise use an available native image tool.
 
-- **ChatGPT native.** Use the host's `image_gen` tool when the user wants ChatGPT to render the thumbnail.
-- **Google Antigravity.** Use Antigravity's native image-generation capability when the user works there. Antigravity currently uses Nano Banana 2 for generative-image tasks, but use the capability and model exposed in that environment rather than assuming a fixed model name.
-- **Prompt package.** Give the user a ready-to-paste prompt, a reference-attachment plan, and a short review checklist. This route works with Gemini, Antigravity, ChatGPT, Claude, or another image generator.
+- **ChatGPT native:** use the host's image-generation capability.
+- **Google Antigravity:** use the image model and tools exposed in that environment.
+- **Prompt package:** provide a generator-neutral prompt, attachment manifest, and finish checklist when the user wants to work in another image tool or no native tool is available.
 
-When more than one native route is available and the choice will affect the result, ask which one the user wants. Clearly distinguish a rendered asset from a prompt package.
+State whether the result is a rendered file or a prompt package. Do not switch providers without the user's approval.
 
-## Intake
+## 1. Decide the direction
 
-Collect only details that materially affect the result. Use sensible defaults for the rest.
+Read the project before generating. Use the evidence that exists, in this order:
 
-- Video topic, title, and intended viewer.
-- The question the viewer should wonder and the feeling the image should create. Decide these before deciding what to depict.
-- The main subject: a supplied face or character, an explicitly requested generated person, product, place, or graphic. Never introduce a person by default.
-- Any face, character, product, logo, or source-frame references. Treat a reference thumbnail as style and composition direction, not an identity source.
-- Aspect ratio. Default to 16:9.
-- Exact headline text, if wanted, and the number of concepts or variants.
-- Whether this is a standard long-form video, a Short, or a podcast. Default to long-form.
+1. User-supplied inspiration and stated taste.
+2. Brand or channel examples, including a current thumbnail if one exists.
+3. The video, source footage, script, product, character, place, and logo assets.
+4. The video's promise and intended viewer.
 
-If the user does not give an exact count, render four genuinely different thumbnail concepts. A cleanup, resize, crop, or targeted edit does not count as a variant.
+A current thumbnail is optional context. Never assume one exists or invent a before-and-after rationale. When it exists, decide what to preserve or deliberately leave behind. When it does not, start from the project evidence and the video promise.
 
-If a person is central but the user has not chosen who, ask once whether they want a supplied face, an explicitly generated person, or a people-free concept. When a face or character image is supplied, use it as a reference and require a recognizable identity match. Do not copy a reference thumbnail or invent a specific identity.
+Before rendering, write a short internal direction card:
 
-When the user supplies product photos, character assets, or a logo, use them as image references for every concept that depicts them. Check the result against those files before delivery. Do not replace a supplied product with a generic lookalike.
+- **Viewer and promise:** who should care and what the image truthfully suggests.
+- **Visual question:** the fast question or tension that makes the viewer want the answer.
+- **Focal proof:** one scene, subject, action, result, or contrast that earns the click.
+- **Visual world:** the project's own tone, material, lighting, and level of polish.
+- **Assets that must match:** identities, products, characters, logos, or wardrobe that matter to the idea.
+- **Title relationship:** what the title explains and what the image adds. Decide whether a short headline improves that relationship.
 
-## Reference plan
+Privately consider several plausible directions, then choose one lead direction. Generate one lead image by default. Add one alternative only when it tests a genuinely different visual question supported by the project. Do not turn minor changes of color, crop, expression, or copy into separate concepts.
 
-Before rendering or writing a prompt, classify the supplied assets:
+Ask one compact question only when a missing answer would change the idea, such as an unchosen real person, a missing must-match product, a genuinely unclear viewer, or a brand decision the project cannot answer. Do not ask the user to choose a research level for ordinary work.
+
+Run a current spot-check only when the project's own evidence cannot resolve a competitive, unfamiliar, niche, or fast-moving category. Inspect up to three relevant examples. Run deeper research only on request, for a launch or rebrand, or for a strategic review.
+
+## 2. Plan references and render the image
+
+Classify each available image before using it:
 
 - **Must match:** a real person, character, product, logo, or outfit whose identity matters.
-- **Look and pose:** a source frame, lighting reference, framing reference, or pose reference.
-- **Atmosphere:** a location, palette, texture, or mood reference.
+- **Direction:** framing, lighting, pose, color, location, or production texture.
+- **Atmosphere:** mood, palette, material, or setting.
 
-Make sure every must-match asset shown in a concept has a matching reference attached to that concept. Match the plan to the reference limit of the chosen image system. If the required must-match assets exceed that limit, say so and offer a prompt package, a staged composition plan, or a concept that covers the assets faithfully. Do not silently omit a requested product or substitute a generic version.
+Use a must-match asset only when it earns a place in the lead idea. If it appears, attach the actual reference and verify the result. Do not add a product package, face, or logo merely because a file is available. If a real asset would exceed the selected model's reference limit, say so and offer a prompt package, staged composition, or a direction that keeps the essential assets accurate.
 
-Create an attachment manifest in the same order that references are attached. Give every image its role and what must be preserved, for example: `Reference 1: girl identity, retain her face, hair, and hospital gown.` Use that mapping in the render prompt. Include the manifest in every prompt package so the user knows exactly which images to attach and why.
+Create an attachment manifest in the order attached. State each image's role and the exact detail that must survive. Treat a reference thumbnail as art direction, never as a person's identity or a layout to copy.
 
-## Inspiration research
+When a source frame already carries the direction card more faithfully than a generated scene, use that frame as the thumbnail base. Crop, color-correct, or finish it as needed. Do not generate a replacement merely because an image model is available.
 
-Use this optional mode when the user asks for inspiration, competitor research, or thumbnail trends. Gather 10 to 15 relevant references across the user's own successful videos when available, adjacent channels, the same video format, saved inspirations, and relevant non-YouTube visual media.
-
-For each reference, identify the visual question, emotional pull, focal subject, title-and-thumbnail division of labor, composition, and what makes it readable at a glance. Use the findings to form original concepts. References guide the underlying idea and visual structure, not a copy of another creator's thumbnail.
-
-## Concept and composition
-
-Privately consider at least five directions. Then render the requested number of distinct directions, or four when no count was supplied. A good direction creates an information gap that the video honestly answers. It must read in under a second and have one obvious focal subject.
-
-Decide how the title and thumbnail divide the information. The title may state the topic while the image supplies visual proof, a result, emotion, or an unanswered question. Use headline text when it adds a useful part of the promise. Honor exact user-supplied copy.
-
-When the user has no visual direction, begin with the content type that best matches the video:
-
-- **Tutorial or review:** make the result, tool, or decision visible so viewers see the benefit.
-- **Challenge or experiment:** show the person, obstacle, scale, or stakes.
-- **Personal story:** center the decisive emotional moment or a meaningful object from the story.
-- **Transformation:** use a clear before-and-after contrast when both states are truthful and stay readable.
-- **Explainer or analysis:** use one simple visual metaphor, object, or diagram that makes the idea concrete.
-- **Product or collection:** make the real product the hero and use its supplied references.
-
-Treat these as starting points. Change or combine them when the title, intended viewer, or supplied references call for a stronger direction.
-
-Useful directions include a posed portrait, posed action, product as hero, before/after, versus, three-step progression, landscape, map or aerial view, graphical representation, repetition, size contrast, screenshot from the source video, text callout, and a plausible amplified version of one real story element. Combine directions only when the image stays simple.
-
-Keep the main subject large, high-contrast, and separated from the background. Remove props and detail that do not strengthen the central idea. Use a split layout only when the user asks for a comparison, before/after, or panels. A scene containing two things is not automatically a split layout.
-
-## TV-first 50% test
-
-Design the thumbnail as though the bottom half may be hidden by YouTube's TV interface. Put the focal subject, hook, and any essential headline in the upper half, usually the top third. Before delivery, inspect the result as if its lower half were covered. The visible top half must still communicate the topic and create curiosity. If it fails, revise the composition before showing it.
-
-Also inspect at a small feed-like size. The focal subject, emotion, and key visual element must still be obvious. Do not rely on the video title to create interest.
-
-For a thumbnail rendered in the current host, complete this review manually before the user sees it. Inspect the full image, its 120px-wide feed-size appearance, and its visible upper half with the lower half treated as hidden. Do not generate or deliver a contact sheet for this check. If any view fails, make a targeted revision and repeat all three checks before presenting the thumbnail. For a prompt package, include the same three checks for the user to apply after rendering.
-
-## Test and compare mode
-
-When the user asks for a YouTube Test & Compare set, produce exactly three upload-ready thumbnails. Keep the video and core promise constant, then vary one major packaging choice per candidate, such as the focal subject, the visual question, or text-led versus visual-led presentation. State the hypothesis for each candidate.
-
-Prepare each test image at 16:9 and at least 1280 x 720. YouTube runs concurrent thumbnail tests with up to three thumbnails and determines results by watch-time share, not click-through rate alone. A finished test can take days or up to two weeks. Treat an untested recommendation as a hypothesis, not a winner.
-
-For standard concept exploration, keep the default of four genuinely different directions unless the user asks for another count.
-
-## Learn from published results
-
-When the user supplies a YouTube Analytics export or Test & Compare report, record the video title, the thumbnail variants, the test period, impressions, traffic source, and the reported result. Use YouTube's watch-time-share result for an official Test & Compare outcome. For an ordinary thumbnail swap, compare similar traffic sources over a meaningful period before deciding that a change helped.
-
-Turn the result into one next hypothesis. Preserve the video's topic and viewer when comparing outcomes. A promising result on one video informs the next test, but does not become a universal template for every video.
-
-## Text
-
-Choose the amount of text according to the video's premise, the image's strength, and the intended viewing context. A short, truthful headline can make the premise clear at a glance. A text-free image can let a strong visual carry the hook.
-
-When the video title or premise contains a strong short phrase, consider it as a headline candidate. For a comparison set, use text-led and visual-led directions when they create meaningfully different thumbnail options. For a single thumbnail, choose the approach that makes the hook clearest.
-
-Use two to five words where possible. Put the headline in a clear upper-half area and make it high-contrast and readable at small sizes. Use user-supplied wording verbatim. Inspect every letter after rendering and correct an inaccurate text rendering with one targeted retry. Offer short headline options when the user asks for copy or testing.
-
-Do not use real-platform logos, fake posts, fake reviews, or fake news graphics. Generic UI or labels are acceptable only when they accurately represent the video and the user asks for them.
-
-## Generate and refine
-
-For a native rendering route, use the selected image capability for each distinct concept or variant. Build a focused prompt that specifies the asset's use, topic, focal subject, style, composition, lighting or mood, palette, exact text when applicable, reference plan, and concrete constraints. Preserve user-provided detail instead of adding arbitrary story elements.
+For a native image render, make the prompt describe the direction card rather than a generic thumbnail formula. Specify the one focal proof, the visual world, the composition, the references, and the true relationship to the video. Keep nonessential details out. Use one generation call for each genuinely distinct direction.
 
 For a prompt package, provide:
 
-- The one-sentence thumbnail premise and its division of labor with the title.
-- The final prompt in a single paste-ready block.
-- The attachments to add, grouped by must-match, look and pose, and atmosphere.
-- The intended aspect ratio, focal-subject placement, headline text if any, and a small-size review checklist.
+- The direction card and title relationship.
+- One paste-ready image prompt.
+- An ordered attachment manifest grouped by role.
+- The aspect ratio, focal placement, headline decision, and finish checklist.
 
-Use the chosen image system's existing edit capability for an edit. State the invariants clearly. Make one targeted change at a time, such as expression, background, color, headline placement, or removal of clutter. Preserve identity, pose, clothing, logo, and composition unless the user asked to change them.
+Use 16:9 for standard long-form YouTube unless the user specifies another format. Keep the focal proof and any essential headline in the upper half so the cover remains meaningful when the lower half is obscured by TV UI.
 
-For long-form videos, deliver a 16:9 JPG or PNG at the highest practical resolution. Keep every Test & Compare candidate at least 1280 x 720. Shorts and podcast thumbnails need their own aspect-ratio route rather than a recycled 16:9 layout.
+## 3. Finish, revise, and review
 
-## Review before delivery
+Text is a creative choice, not a default ban or a mandatory decoration. Use a short headline when it makes the visual question clearer, and leave it out when the scene communicates it better.
 
-Check every result for:
+For exact wording, typography, or placement, generate the image with clear space for text and apply the headline through a reliable overlay or image-editing capability when one is available. If the chosen route requires text baked into the image, use the exact phrase and inspect every character. Do not call baked text deterministic.
 
-- Accurate and recognizable supplied identities or products.
-- A single readable focal subject and no distracting clutter.
-- A truthful relationship to the video topic.
-- Clear emotion or intrigue without relying on the title.
-- The TV-first 50% test and small-size readability.
-- Correct text, if used, and no stray words, watermark, or unintended brand marks.
-- The chosen route's reference plan. Every required person, product, logo, and character must be present and recognizable.
+Use a short headline, usually two to five words. Put it where it does not obscure the focal proof. Do not use invented reviews, platform UI, news graphics, or claims the video cannot support.
 
-Retry a failed render at most twice. If it still misses a requirement, report the issue instead of presenting it as final.
+For an edit, make one narrow change at a time. State what must remain unchanged. Preserve identity, product detail, logo, composition, and lighting unless the user asked to change them.
 
-For a comparison set, review every concept against the same criteria and present all viable candidates. Give a recommendation, but do not claim one "won" unless it was compared with other creative concepts or measured in a real A/B test. If the user asks for a single final file without choosing, select the strongest reviewed concept and state why.
+Before delivery, inspect every rendered image:
 
+- At full size for reference accuracy, unwanted text, watermarks, and visual artifacts.
+- At roughly 120 pixels wide for the focal proof and headline.
+- With the lower half hidden for the TV view.
+
+If one check fails, make a targeted revision and repeat all three checks. Retry a failed render at most twice. Report an unresolved miss rather than presenting it as final.
+
+## Test & Compare and delivery
+
+When the user asks for a YouTube Test & Compare set, create exactly three upload-ready 16:9 candidates. Hold the video's truthful promise constant and change one major packaging decision per candidate. State the hypothesis for each. A real YouTube result determines a winner. Until then, call any recommendation a hypothesis.
+
+Save project-bound images to a versioned project location without overwriting earlier work. Deliver each viable image with a short label, its direction card in plain language, and why it fits the project evidence. When the user asks for one final image, select the strongest reviewed candidate and explain the choice.
