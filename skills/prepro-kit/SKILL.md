@@ -1,9 +1,9 @@
 ---
-name: preproduction-kit
+name: prepro-kit
 description: Prepare a video project with a creative brief, treatment, AV script, production breakdown, and stage-appropriate paperwork. Use for one document or the full planning package.
 ---
 
-# Preproduction kit
+# Pre-pro kit
 
 This is one installable skill. Its modes make different decisions and produce different artifacts. Read only the reference needed for the request, plus earlier-stage references when their output is missing and the current work depends on it.
 
