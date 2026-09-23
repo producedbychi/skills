@@ -10,17 +10,11 @@ Apply a supplied template before inventing a layout. Otherwise use confirmed typ
 
 ## Pick a review format
 
-Follow an explicit user or client requirement first. Otherwise choose the format that fits how the reviewer will read, comment, and approve the artifact. These are starting points, not fixed rules:
+Follow an explicit user, client, template, or signing-platform requirement first. Otherwise choose by the document's stage and how people will work with it, not by its title. For briefs, treatments, AV scripts, scopes, and contract drafts that need comments or redlines, DOCX is a practical default. A treatment needs PPTX only when a slide-based visual presentation helps the decision. A breakdown or rights register may work better as a spreadsheet when people must sort rows and update owners or status.
 
-| Artifact | Useful review format |
-| --- | --- |
-| Creative brief or scope of work | DOCX for tracked edits; PDF for a stable approval copy. |
-| Visual treatment | PPTX when images, frames, or concept comparisons drive the decision; a designed PDF or DOCX when the treatment is mainly prose. |
-| AV script | Editable DOCX with a readable two-column table; PDF when a fixed circulation copy is needed. |
-| Shot list, production breakdown, or rights register | Spreadsheet when rows need sorting, ownership, or status updates; PDF for a fixed review snapshot. |
-| Estimate or invoice | Approved company template when supplied; PDF for a fixed client copy, with an editable source retained when practical. |
+Use PDF when a fixed-layout copy matters, such as a settled document for formal circulation, an issued invoice, or a finalized agreement entering a signing process. A contract does not need to be drafted or negotiated as a PDF. Some e-signing services accept editable source formats and create a signed PDF; follow the chosen service and the parties' requirements. A PDF alone does not establish approval or make an unsigned agreement effective. Preserve the editable source and the final signed record when applicable.
 
-Choose one primary review file per artifact. Provide an editable source as well when the reviewer needs to revise it or when future rounds are expected. Do not make duplicate formats that serve no review need. For a full package, the files may use different formats. Keep their titles, versions, statuses, dates, and approval requests consistent.
+Choose one primary review file per artifact. Export a second format only when it serves a specific need, such as a fixed copy alongside an editable draft. Do not produce PDF copies of every draft by default. A full package can be mostly DOCX. Keep titles, versions, statuses, dates, and approval requests consistent across any companion files.
 
 When the user asks for a client-review or full package and a writable location exists, create the actual files. A Markdown draft or text pasted in chat is appropriate for quick drafting or when requested, but it is not a stand-in for a formatted approval document. If the needed file-generation capability is unavailable, say so and provide the best usable source file rather than naming a nonexistent PDF, DOCX, or PPTX. Do not send files or represent them as approved without authorization and evidence.
 
