@@ -20,6 +20,10 @@ Use the original file for any element whose identity must match. Match its persp
 
 Provide one paste-ready prompt for the generated portion and a separate placement plan for exact product, logo, and text assets. Name each required attachment in order. Mark any file that has only been described, not inspected. State which text belongs in the image and which belongs in platform fields. Include the intended crop and a short finish checklist so the user can tell whether the generated result is usable.
 
+Read the prompt as if it were pasted into a fresh chat. It must contain the selected subject, medium, composition, brand treatment, exact words, and reference roles. State how the advertiser appears, using its supplied mark or a plain text name when no mark exists. Assign approved CTA copy a specific home rather than leaving the choice unresolved. Check character counts with a counting tool when supplying constrained fields. Keep this handoff as short as the user's requested format allows.
+
+If a real product is described but its image is missing, make that file a required attachment and specify what to preserve. Alternatively, provide a background-only prompt and placement instructions for the real asset. A generic package mockup is a separate provisional concept when requested, not a replacement for the missing product. Do not turn a requested single image into multiple renders without a placement or user requirement; explain necessary adaptations as separate outputs.
+
 ## When a render fails
 
 Identify the failing element before retrying. A composition or crop problem may justify a focused edit. Repeated text or identity drift calls for compositing the exact asset rather than another full regeneration. Recheck the repaired image at full size and feed size. If the available tool still cannot deliver an accurate file, report the specific defect and provide the usable base image or prompt package.

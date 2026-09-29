@@ -27,13 +27,14 @@ Use supplied reviews, sales notes, search terms, comments, or past ads to identi
 | Proof | A real review, result, demonstration, or work sample reduces doubt | The verified evidence, then the claim it supports | Do not turn an anecdote into a universal promise. Clear rights before using a testimonial. |
 | Offer | The buyer already understands the category or the deal is the reason to act | The offer and the product or service it applies to | State terms accurately. A discount alone may not explain an unfamiliar service. |
 | Service work or result | There is no physical product to anchor the ad | The real deliverable, process, place, provider, or customer task | Generic equipment and invented client work are not proof. |
+| Illustrated idea or typography | The benefit is intangible, assets are scarce, or the words themselves are compelling | One recognizable situation, visual metaphor, or expressive headline | Keep the service identifiable. Treat illustration as explanation, not evidence of results. |
 
 For software, an accurate interface or real output may serve as the product. For a local service, use its actual setting. For an event or community offer, use a real participation moment or artifact. If no suitable asset exists, an illustrative or symbolic scene can explain the category, but it must not pretend to document the brand's work.
 
-Choose one route because it fits the buyer and available evidence, not because it appears in a popular ad. The [service and product examples](visual-examples.md) show how a route becomes an image without making the example layout mandatory.
+Choose one route because it fits the buyer and available assets. For services without a clear subject, [service visuals](service-visuals.md) works through the translation from benefit to image. The [finished examples](visual-examples.md) show executions and the choices worth adapting; their layouts and palettes are not defaults.
 
 ## Compare concepts without template roulette
 
 For each possible image, ask: What does the viewer notice first? Which offer or benefit does that communicate? Does the visual speak to the same buyer as the headline? What makes it belong to this brand? What evidence supports the claim? Would the message survive at feed size and in the platform's actual layout?
 
-Choose the concept that answers those questions most clearly. Visual beauty matters, but it cannot rescue an unclear offer. A public example is inspiration, not proof of conversion. Do not infer success from an ad's apparent age, repetition, likes, or spend. If the user later supplies results for their own ads, compare the exact rendered creatives against the business outcome, not click-through rate alone.
+For an open brief, compare a few distinct answers internally and select the concept that explains the offer with the strongest feasible execution. Follow an already chosen direction without restarting concept selection. Use [art direction](art-direction.md) to turn the choice into specific composition and production decisions. A public example is inspiration, not proof of conversion. Do not infer success from an ad's apparent age, repetition, likes, or spend. If results are supplied, compare the exact rendered creatives against the business outcome, not click-through rate alone.

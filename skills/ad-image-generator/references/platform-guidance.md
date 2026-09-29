@@ -2,6 +2,8 @@
 
 Use only the section for the requested placement. These notes describe the creative role of the image, not a permanent specification sheet. Check current official dimensions, safe areas, file limits, and policies before calling an export ready.
 
+When supplying platform copy, check each field's role and character limit as well as the image specifications. Preserve approved wording in a field that fits, or label a shorter adaptation as proposed. A custom phrase such as "Plan your explainer" is ad copy, not automatically an available native CTA button. Use the platform's supported button choices for the chosen objective and keep custom language in the image or copy. Native buttons sit outside the image; do not reserve an empty in-image button box for them.
+
 ## Meta: Facebook and Instagram
 
 Feed image ads can carry a finished visual idea, including short text when it makes the message clearer. Design at phone size, keep the focal point obvious, and make an intentional crop for each requested placement. Stories and Reels need different framing and safe-area checks from Feed. Meta may expand or adjust assets, so inspect the actual preview. The [Meta Blueprint creative lessons](https://www.facebookblueprint.com/student/collection/284227/path/240405) cover mobile-first creative, while [Meta's Reels guidance](https://www.facebook.com/business/ads/facebook-instagram-reels-ads) documents its placement tools. Reels test results favoring vertical video over a still image do not prove that video wins in Feed or for every service business.
@@ -11,6 +13,8 @@ Feed image ads can carry a finished visual idea, including short text when it ma
 Ask which Google ad format will use the image. In responsive Display, Demand Gen, Performance Max, and Search image assets, Google combines the image with separate headlines, descriptions, logos, and buttons. Make the business, product, or service the image's subject. Supply distinct relevant images and useful crops. For responsive Display, Google specifically advises against baked-on text or logos, fake buttons, collages, and heavy digital composites because the platform may repeat or crop those elements. Keep text and logo in their separate asset fields when that format provides them. [Responsive Display guide](https://support.google.com/google-ads/answer/9823397?hl=en) · [Demand Gen image ads](https://support.google.com/google-ads/answer/17140672?hl=en) · [Performance Max image guidance](https://support.google.com/google-ads/answer/14530211?hl=en)
 
 An uploaded, fixed-layout display ad is different: the file is the complete ad, so text and brand treatment can belong inside it. Follow that format's specifications and inspect the final size. Do not apply the responsive-asset advice as a blanket ban on text. [Google uploaded display formats](https://support.google.com/google-ads/answer/1722096?hl=en)
+
+For responsive Display, Google's current guide distinguishes short headlines of up to 30 characters and a long headline of up to 90. Count spaces and punctuation. For example, "An evening ritual, made with care." has 33 characters and belongs in the long headline field. A proposed short adaptation is "Your evening tea ritual". Recheck these limits when delivering copy. Text printed on a real product label is part of the product photo; it is different from adding a headline or logo overlay. [Create a responsive display ad](https://support.google.com/google-ads/answer/7005917/create-a-responsive-display-ad)
 
 ## LinkedIn
 
