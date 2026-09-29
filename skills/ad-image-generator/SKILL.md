@@ -44,7 +44,7 @@ If there is no image tool, or the user wants another generator, deliver one past
 
 Inspect the rendered ad at full size, at realistic feed size, and in the platform preview when available. Check each requested crop:
 
-- The complete ad makes the one message and offer understandable without requiring a long caption. For a responsive image asset, judge this in the assembled platform preview, not the image alone. The image, headline, and CTA address the same buyer.
+- At the intended viewing size, someone unfamiliar with the brief can tell what kind of offer this is. If the main visual could advertise another business, the headline or visible platform copy must resolve the ambiguity. For a responsive image asset, judge this in the assembled platform preview, not the image alone. The image, headline, and CTA address the same buyer.
 - A viewer can identify the advertiser in the complete placement; the ad does not look like a competitor's or a generic category image.
 - The intended first read wins at feed size. Type spacing, line breaks, and contrast make the reading order deliberate. Any small supporting copy remains optional to understanding the offer.
 - The next action is easy to find in the complete placement. If the image includes CTA text, it is readable at feed size, separated from competing detail, and given deliberate emphasis that fits the composition. Assess visibility independently of whether it looks like a button. An image without CTA text can rely on the platform's native action.
@@ -52,5 +52,7 @@ Inspect the rendered ad at full size, at realistic feed size, and in the platfor
 - The claim, proof, product, people, typography, and logo are accurate. Text is spelled correctly.
 - The image fits the platform's asset role, safe area, and policy. It does not draw a fake button or obscure required information.
 - The ad and its landing destination, if known, promise the same thing.
+
+If only small supporting copy explains what is being sold, the ad fails the offer-clarity check. Repair the first read through the visual idea, a legible headline, or the platform's visible text fields. Making a small label slightly larger will not fix a visual that tells the wrong story. Preserve approved wording; propose a change rather than silently rewriting it.
 
 If a check fails, identify the visible defect, make a focused repair, and inspect again. Use the art-direction guide for a clear but dull result. If a repair repeats the same defect, change the production method or report the limitation instead of entering an indefinite regeneration loop. Deliver one finished lead ad or prompt package, its placement, and a short creative hypothesis. Report only inspections actually performed; if the platform preview is unavailable, say that export fit remains unverified. If results arrive later, compare the exact creative, placement, audience, and business outcome. Do not claim untested conversion performance.
