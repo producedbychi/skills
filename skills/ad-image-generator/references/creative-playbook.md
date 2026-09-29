@@ -14,20 +14,26 @@ This is a set of decision aids, not a gallery of layouts to copy. Public ad libr
 
 These findings agree on a practical starting point: make one relevant thing easy to notice, connect it to the advertiser, and make the promised value concrete. None identifies a universal winning layout. Apply the evidence to the user's brand and objective rather than scoring ads by a fixed formula.
 
-## Turn an offer into a visual anchor
+## Use buyer language when available
 
-| Offer | Strong candidates | Weak shortcut to challenge |
-| --- | --- | --- |
-| Physical product | The real item in use, its defining detail, a true comparison, or the result of using it | A floating pack that says little about why it matters |
-| Creative or professional service | A real finished work sample, a person delivering the service, a concrete deliverable, or a true transformation | Generic equipment, a conference-room stock photo, or invented results |
-| Software or digital service | An accurate interface, a visible workflow, a customer task, or a real output | A fabricated dashboard with impressive numbers |
-| Local service | The provider, place, work, or result in its actual setting | A generic portrait that could advertise any business |
-| Event, education, or community | A real participation moment, useful artifact, or credible outcome | An invented crowd, endorsement, or emotional reaction |
+Use supplied reviews, sales notes, search terms, comments, or past ads to identify recurring words, questions, and objections. Note which file supports each observation. A review can suggest a message; it does not prove the message will convert. Do not publish a customer's quote, name, or image as a testimonial without permission. If no such material exists, use the offer and project context and proceed.
 
-The best anchor may be a supplied photo or screenshot. Generate only what improves the concept. For a service with no product, the work itself can be the hero. A symbolic scene is an option when literal evidence is unavailable, but keep the offer intelligible and do not dress a symbol up as proof.
+## Choose a visual route
+
+| Route | Use when | First read | Guard |
+| --- | --- | --- | --- |
+| Product in use | The real product and its use make the benefit clear | The exact item in a believable setting | Do not redraw packaging or let props obscure it. |
+| Comparison | The audience must understand a meaningful difference | Two clearly distinct states or choices | Compare facts the brand can support. Do not invent a before-and-after result. |
+| Proof | A real review, result, demonstration, or work sample reduces doubt | The verified evidence, then the claim it supports | Do not turn an anecdote into a universal promise. Clear rights before using a testimonial. |
+| Offer | The buyer already understands the category or the deal is the reason to act | The offer and the product or service it applies to | State terms accurately. A discount alone may not explain an unfamiliar service. |
+| Service work or result | There is no physical product to anchor the ad | The real deliverable, process, place, provider, or customer task | Generic equipment and invented client work are not proof. |
+
+For software, an accurate interface or real output may serve as the product. For a local service, use its actual setting. For an event or community offer, use a real participation moment or artifact. If no suitable asset exists, an illustrative or symbolic scene can explain the category, but it must not pretend to document the brand's work.
+
+Choose one route because it fits the buyer and available evidence, not because it appears in a popular ad. The [service and product examples](visual-examples.md) show how a route becomes an image without making the example layout mandatory.
 
 ## Compare concepts without template roulette
 
-For each possible image, ask: What does the viewer notice first? Which offer or benefit does that communicate? What makes it belong to this brand? What evidence supports the claim? Would the message survive at feed size and in the platform's actual layout?
+For each possible image, ask: What does the viewer notice first? Which offer or benefit does that communicate? Does the visual speak to the same buyer as the headline? What makes it belong to this brand? What evidence supports the claim? Would the message survive at feed size and in the platform's actual layout?
 
 Choose the concept that answers those questions most clearly. Visual beauty matters, but it cannot rescue an unclear offer. A public example is inspiration, not proof of conversion. Do not infer success from an ad's apparent age, repetition, likes, or spend. If the user later supplies results for their own ads, compare the exact rendered creatives against the business outcome, not click-through rate alone.

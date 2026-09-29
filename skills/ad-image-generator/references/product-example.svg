@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Product ad composition example</title>
+  <desc id="desc">Wireframe for a tea product ad, with an exact package photo placeholder, believable use setting, one headline, and three annotations.</desc>
+  <rect width="1200" height="680" fill="#F4F2EC"/>
+  <text x="40" y="28" fill="#625A42" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2">ILLUSTRATIVE WIREFRAME</text>
+  <rect x="40" y="44" width="484" height="592" rx="10" fill="#D7D0B7"/>
+  <rect x="40" y="430" width="484" height="206" rx="0" fill="#A99572"/>
+  <path d="M40 430 C165 412 358 418 524 430" fill="none" stroke="#8A7557" stroke-width="3"/>
+  <text x="72" y="89" fill="#3F492F" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2">FIELDNOTE TEA</text>
+  <text x="72" y="148" fill="#293622" font-family="Georgia, serif" font-size="42" font-weight="700">An evening ritual,</text>
+  <text x="72" y="198" fill="#293622" font-family="Georgia, serif" font-size="42" font-weight="700">made with care.</text>
+  <ellipse cx="283" cy="520" rx="158" ry="26" fill="#705E46" fill-opacity="0.28"/>
+  <rect x="158" y="238" width="215" height="278" rx="11" fill="#F8F3E8" stroke="#435335" stroke-width="4"/>
+  <rect x="178" y="258" width="175" height="238" rx="4" fill="#EBE6D7" stroke="#8C9B7B" stroke-width="1"/>
+  <text x="199" y="316" fill="#435335" font-family="Arial, sans-serif" font-size="17" font-weight="700">EXACT PACKAGE</text>
+  <text x="223" y="341" fill="#435335" font-family="Arial, sans-serif" font-size="17" font-weight="700">PHOTO HERE</text>
+  <line x1="208" y1="374" x2="323" y2="374" stroke="#A6B19B" stroke-width="2"/>
+  <line x1="208" y1="388" x2="323" y2="388" stroke="#A6B19B" stroke-width="2"/>
+  <line x1="208" y1="402" x2="323" y2="402" stroke="#A6B19B" stroke-width="2"/>
+  <ellipse cx="414" cy="472" rx="47" ry="16" fill="#7B684E" fill-opacity="0.32"/>
+  <ellipse cx="415" cy="434" rx="42" ry="16" fill="#E8E1D1" stroke="#7C715B" stroke-width="3"/>
+  <path d="M373 434 L380 466 Q415 484 451 466 L457 434" fill="#EEE7D9" stroke="#7C715B" stroke-width="3"/>
+  <ellipse cx="415" cy="435" rx="33" ry="9" fill="#94694D"/>
+  <text x="72" y="591" fill="#293622" font-family="Arial, sans-serif" font-size="18" font-weight="700">Explore the blend</text>
+  <circle cx="490" cy="176" r="18" fill="#C18454"/><text x="484" y="183" fill="#F8F3E8" font-family="Arial, sans-serif" font-size="18" font-weight="700">1</text>
+  <circle cx="490" cy="365" r="18" fill="#C18454"/><text x="484" y="372" fill="#F8F3E8" font-family="Arial, sans-serif" font-size="18" font-weight="700">2</text>
+  <circle cx="490" cy="560" r="18" fill="#C18454"/><text x="484" y="567" fill="#F8F3E8" font-family="Arial, sans-serif" font-size="18" font-weight="700">3</text>
+  <text x="582" y="94" fill="#293622" font-family="Arial, sans-serif" font-size="29" font-weight="700">Product-in-use route</text>
+  <text x="582" y="126" fill="#5E6254" font-family="Arial, sans-serif" font-size="17">The real package stays central and grounded.</text>
+  <line x1="524" y1="176" x2="563" y2="176" stroke="#B97646" stroke-width="2"/>
+  <text x="582" y="171" fill="#293622" font-family="Arial, sans-serif" font-size="20" font-weight="700">Experiential message, no health claim</text>
+  <text x="582" y="199" fill="#5E6254" font-family="Arial, sans-serif" font-size="17">The copy describes a ritual, not a sleep outcome.</text>
+  <line x1="524" y1="365" x2="563" y2="365" stroke="#B97646" stroke-width="2"/>
+  <text x="582" y="359" fill="#293622" font-family="Arial, sans-serif" font-size="20" font-weight="700">Insert the exact product photo</text>
+  <text x="582" y="387" fill="#5E6254" font-family="Arial, sans-serif" font-size="17">Keep the label, shape, colors, and wording intact.</text>
+  <text x="582" y="413" fill="#5E6254" font-family="Arial, sans-serif" font-size="17">The cup suggests use without hiding the product.</text>
+  <line x1="524" y1="560" x2="563" y2="560" stroke="#B97646" stroke-width="2"/>
+  <text x="582" y="554" fill="#293622" font-family="Arial, sans-serif" font-size="20" font-weight="700">One clear action</text>
+  <text x="582" y="582" fill="#5E6254" font-family="Arial, sans-serif" font-size="17">Use platform CTA fields if they fit the placement.</text>
+  <text x="582" y="633" fill="#8B6352" font-family="Arial, sans-serif" font-size="15">Use the user's brand, not this example palette or package shape.</text>
+</svg>
