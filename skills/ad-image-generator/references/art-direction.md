@@ -24,6 +24,14 @@ Start with inspected brand material: logo, packaging, photography, type, color, 
 
 Typography should serve the message and brand. Use supplied type when available. Otherwise choose by character: a compact, sturdy face can suit a time-sensitive offer; an editorial serif can suit a considered craft product. Set size and line breaks for feed reading. Use weight or position to show emphasis. Avoid outlines and shadows that compensate for weak contrast.
 
+## Give the action deliberate emphasis
+
+Decide whether the next action belongs in the image, the platform's native CTA, or both. When the native CTA carries the action, the image may omit action text. If action text is included, give it a clear place in the reading order and keep it readable at the intended viewing size.
+
+Choose the treatment from the brand and composition. A plain text line can gain emphasis through scale, weight, contrast, and surrounding space. An underline, directional cue, or contrasting callout can suit another design. Keep the no-fake-buttons check: use the platform's real CTA control when a button is needed, and keep imitation controls out of the image. These visual emphasis options are flexible; none is the default style.
+
+Specify the CTA's placement, relative prominence, and treatment in the generation prompt. During review, inspect it at feed size. If it disappears, adjust the cause: enlarge small lettering, strengthen contrast, simplify the area behind it, or move it into the composition's reading path. Preserve the headline and visual hierarchy while making the next step easy to find.
+
 ## Diagnose the two common misses
 
 Diagnose the composition before changing the concept. Correct one cause at a time; keep the mood suited to the brand.

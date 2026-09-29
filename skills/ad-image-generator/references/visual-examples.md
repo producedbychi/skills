@@ -12,7 +12,7 @@ The close crop gives the bread texture room to read. A dark film strip runs into
 
 Adapt the relationship between service and customer subject. A camera on a desk would identify equipment but say less about what the food maker receives. Another studio might need a different medium, palette, or customer subject. Keep its offer and identity in control.
 
-The result mixes photographic bread texture with a paper-like interior. It does not meet a strict flat-paper-cut brief. Its impossible film strip is a conceptual device, not a literal production method or client-work sample. The small action line is secondary; keep the essential offer readable without it. This example teaches service clarity and composition, not exact medium compliance.
+The result mixes photographic bread texture with a paper-like interior. It does not meet a strict flat-paper-cut brief. Its impossible film strip is a conceptual device, not a literal production method or client-work sample. The small action line needs more size or weight for feed use if retained in the image; alternatively, let the placement's native CTA carry the action. This example teaches service clarity and composition, not exact medium compliance.
 
 ## A product in a relevant setting
 

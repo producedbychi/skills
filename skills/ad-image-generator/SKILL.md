@@ -47,6 +47,7 @@ Inspect the rendered ad at full size, at realistic feed size, and in the platfor
 - The complete ad makes the one message and offer understandable without requiring a long caption. For a responsive image asset, judge this in the assembled platform preview, not the image alone. The image, headline, and CTA address the same buyer.
 - A viewer can identify the advertiser in the complete placement; the ad does not look like a competitor's or a generic category image.
 - The intended first read wins at feed size. Type spacing, line breaks, and contrast make the reading order deliberate. Any small supporting copy remains optional to understanding the offer.
+- The next action is easy to find in the complete placement. If the image includes CTA text, it is readable at feed size, separated from competing detail, and given deliberate emphasis that fits the composition. Assess visibility independently of whether it looks like a button. An image without CTA text can rely on the platform's native action.
 - The visual treatment suits the brand and idea. Crop, light, material, or typography gives the composition character; decoration has a purpose. Photographic and composited elements share believable scale, perspective, lighting, and contact shadows.
 - The claim, proof, product, people, typography, and logo are accurate. Text is spelled correctly.
 - The image fits the platform's asset role, safe area, and policy. It does not draw a fake button or obscure required information.
