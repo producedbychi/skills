@@ -4,7 +4,7 @@ Use this guide after choosing the claim and visual route. Let the offer, brand a
 
 ## Choose a visual concept with a job
 
-Write one sentence describing the image's point: "The supplied repair photos make the change in the tile visible to a homeowner." Name the subject, takeaway, and link to this offer. Familiar category ideas can work. Make execution specific with the product, service setting, audience situation, or brand assets.
+Write one sentence describing the image's point: "The supplied repair photos make the change in the tile visible to a homeowner." Name the subject, what it visibly does, the buyer's takeaway, and the link to this offer. If a literal object has no identifiable type or its action does not explain the message, choose another subject before rendering. A metaphor needs a visible relationship and copy that names the service; do not depend on a later explanation of what the image means.
 
 Choose the moment or object that carries the point. A product ad might show a real detail relevant to its use. A bookkeeping service might show an approved report under review. Use metaphor when its meaning is quick to read and it does not pose as evidence.
 
@@ -23,6 +23,10 @@ Choose light for the subject and mood. Soft, broad light can keep a label readab
 Start with inspected brand material: logo, packaging, photography, type, color, and existing ads. Carry forward cues that matter, such as product color, typeface, recurring setting, or service process. Integrate palette into the light, background, or props instead of pasting a flat brand color behind an unrelated image.
 
 Typography should serve the message and brand. Use supplied type when available. Otherwise choose by character: a compact, sturdy face can suit a time-sensitive offer; an editorial serif can suit a considered craft product. Set size and line breaks for feed reading. Use weight or position to show emphasis. Avoid outlines and shadows that compensate for weak contrast.
+
+Create room for text through subject placement, crop, light, or a quiet area of the background. Use type size, weight, color, and surrounding space to make it readable within that composition. If the area is too busy, adjust the composition or background before adding a separate text container.
+
+Choose a filled bar, banner, or panel when it has a role in the idea or an established brand treatment. Readability alone does not make one the default, and these treatments remain available when they suit the brief. Specify what sits behind each text area in the prompt, such as the continuous dark studio background or an open part of the photograph. A "footer" names a position; it does not specify a filled strip. Avoid leaving that choice to vague wording such as "high-contrast footer."
 
 ## Give the action deliberate emphasis
 

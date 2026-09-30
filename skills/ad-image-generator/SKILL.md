@@ -18,7 +18,7 @@ Use this short decision card internally before rendering:
 - **Buyer moment:** Who sees the ad, how familiar are they with the offer, and what matters to them now?
 - **Offer and action:** What is being offered, and what should the viewer do?
 - **Supportable message:** What one claim can the brand actually make? What supplied fact or asset supports it?
-- **Visual anchor:** What can the viewer see that makes the offer or result concrete?
+- **Visual anchor:** What recognizable subject or visible relationship makes the message concrete, and why would the buyer care?
 - **Brand cue:** What makes this recognizable as this brand rather than a category ad?
 - **Placement:** Is the image a finished layout or an asset that the platform will combine with separate text and logos?
 
@@ -30,9 +30,13 @@ Start with the approved message and the assets that can make it visible. For an 
 
 Choose a route from the creative playbook that fits the buyer, assets, and placement. A product may benefit from a use moment or decisive detail. A service can show its work, process, customer situation, or an illustrative metaphor. A typographic composition can carry the idea when the words are the strongest material. Make the service category clear enough that the image is not mistaken for an ad for its client's product. A camera or laptop needs a specific role beyond identifying the industry.
 
+Before rendering, name the subject, what it visibly does, and the buyer-relevant point it makes. A literal object needs an identifiable type and a relevant action; a conceptual image needs a visible relationship that the headline connects to the offer. If the point depends on explaining a mystery object or an arbitrary action outside the ad, change the idea or use a real supplied asset. Do this check before spending a render on composition or styling.
+
 Use real supplied assets when identity matters. Do not invent client work, testimonials, metrics, product features, interface screens, or before-and-after results. If no real people or work samples are available, a generated scene may illustrate the category, but it must not imply that the people are actual staff or clients or that the scene documents this brand's work. A graphic or conceptual treatment may be more honest. Pick one lead concept. Make an alternative only when it tests a genuinely different visual idea or the user asks for options. Variations of the same layout are revisions, not new concepts.
 
 Translate the selected idea into renderable decisions: subject and action, medium, scale and crop, light or graphic contrast, brand cues, and type hierarchy. Replace adjectives such as "premium" or "eye-catching" with the visible choices that create that effect. Carry these choices into the generation prompt, not just the rationale. Use the art-direction guide to resolve weak choices. The image and headline should address the same buyer and promise. Decide which words belong in the image and which belong in platform fields. Keep custom CTA wording in copy unless the platform supports it as a native button label.
+
+Plan how the text fits into the composition before rendering. Specify its placement and the actual background behind it, using the typography guidance in [art direction](references/art-direction.md). A request for readable text does not itself call for a filled bar or panel.
 
 ## Produce the ad
 
@@ -40,19 +44,8 @@ Use the image or editing tools available in the user's environment. Work from a 
 
 If there is no image tool, or the user wants another generator, deliver one paste-ready prompt with the placement, exact text or separate platform fields, and an ordered manifest of any required references. Keep the decision card internal unless requested. Respect a request for just the prompt. Mark missing files as required inputs, not verified assets. For precise lettering, use a text-free base and a separate typesetting step when the chosen tool cannot render it reliably. Clearly distinguish a prompt package from a rendered ad. Do not switch providers without the user's approval.
 
-## Review before delivery
+## Check the result once
 
-Inspect the rendered ad at full size, at realistic feed size, and in the platform preview when available. Check each requested crop:
+Inspect the complete ad at full size and realistic feed size. In one pass, ask whether a new viewer can tell what is shown, what is being sold, and why it matters. Check the intended first read, whether the text treatment fits the visual idea and brand, visible brand and action, exact words, claims, supplied-asset fidelity, and requested crop. Small supporting copy should not carry the whole offer. An image without action text may use the platform's native CTA; the image must not imitate a button.
 
-- At the intended viewing size, someone unfamiliar with the brief can tell what kind of offer this is. If the main visual could advertise another business, the headline or visible platform copy must resolve the ambiguity. For a responsive image asset, judge this in the assembled platform preview, not the image alone. The image, headline, and CTA address the same buyer.
-- A viewer can identify the advertiser in the complete placement; the ad does not look like a competitor's or a generic category image.
-- The intended first read wins at feed size. Type spacing, line breaks, and contrast make the reading order deliberate. Any small supporting copy remains optional to understanding the offer.
-- The next action is easy to find in the complete placement. If the image includes CTA text, it is readable at feed size, separated from competing detail, and given deliberate emphasis that fits the composition. Assess visibility independently of whether it looks like a button. An image without CTA text can rely on the platform's native action.
-- The visual treatment suits the brand and idea. Crop, light, material, or typography gives the composition character; decoration has a purpose. Photographic and composited elements share believable scale, perspective, lighting, and contact shadows.
-- The claim, proof, product, people, typography, and logo are accurate. Text is spelled correctly.
-- The image fits the platform's asset role, safe area, and policy. It does not draw a fake button or obscure required information.
-- The ad and its landing destination, if known, promise the same thing.
-
-If only small supporting copy explains what is being sold, the ad fails the offer-clarity check. Repair the first read through the visual idea, a legible headline, or the platform's visible text fields. Making a small label slightly larger will not fix a visual that tells the wrong story. Preserve approved wording; propose a change rather than silently rewriting it.
-
-If a check fails, identify the visible defect, make a focused repair, and inspect again. Use the art-direction guide for a clear but dull result. If a repair repeats the same defect, change the production method or report the limitation instead of entering an indefinite regeneration loop. Deliver one finished lead ad or prompt package, its placement, and a short creative hypothesis. Report only inspections actually performed; if the platform preview is unavailable, say that export fit remains unverified. If results arrive later, compare the exact creative, placement, audience, and business outcome. Do not claim untested conversion performance.
+If the placement assembles the image with separate copy and branding, judge offer clarity in that assembled view when available. Check live specifications and a platform preview before calling an export upload-ready. If the ad passes, deliver it without extra revisions. If it fails, name the visible defect, make one focused repair, and inspect again. If the repair repeats the defect, change the production method or report the limitation. Deliver one finished lead ad or prompt package, its placement, and a short creative hypothesis. Report only checks actually performed. Judge performance only from later results for the exact creative, audience, and placement.
