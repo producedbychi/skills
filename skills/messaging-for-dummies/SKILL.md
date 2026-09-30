@@ -3,7 +3,7 @@ name: messaging-for-dummies
 description: Clarify an offer and write buyer-relevant marketing messages. Use when copy is confusing, abstract, easy to misinterpret, or needs to reflect customer beliefs, behavior, and language. Supports revising existing copy and developing new messaging for ads, websites, email, and sales materials.
 ---
 
-# Messaging for Dummies
+# Messaging for dummies
 
 Help a buyer understand the offer, recognize whether it fits their situation, assess the evidence, and choose a next step. Reduce the effort required to understand the message while preserving its accuracy and the brand's voice. The name is playful. Write to readers as capable people with different knowledge, reading abilities, and available attention.
 

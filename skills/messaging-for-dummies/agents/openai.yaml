@@ -1,4 +1,0 @@
-interface:
-  display_name: "Messaging for Dummies"
-  short_description: "Make offers clear and relevant to their buyers"
-  default_prompt: "Use $messaging-for-dummies to clarify my offer and write messaging my intended buyers can understand."

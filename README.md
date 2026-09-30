@@ -1,48 +1,37 @@
 # Produced by Chi skills
 
-This is my personal collection of reusable AI skills and creative workflows for video, social content, and visual storytelling. Each skill has its own `SKILL.md`, plus any reference material, templates, or scripts it needs.
+This is my personal collection of AI agent skills for creative production and marketing. Use them to plan video projects, generate ad images and YouTube thumbnails, direct AI video, and write clearer marketing copy.
 
-The skills use the standard `SKILL.md` format, so they can work with Codex, Claude, and other agents that support custom skills.
+I develop these skills through my work at Produced by Chi. They are built for creative studios, production companies, agencies, marketers, and creators. The collection will grow as I develop tools for more creative and business tasks.
 
-## What is included
+Each skill gives an AI agent instructions for a specific job, with supporting references, templates, or scripts where needed. The skills use the `SKILL.md` format for Codex, Claude Code, and other agents that support custom skills.
 
-- [Pre-pro kit](skills/prepro-kit/SKILL.md) is one skill with brief, treatment, AV script, breakdown, and paperwork modes. It can define a project from scratch, develop a creative direction, write a two-column audio and video script, plan shots and resources, and draft the business documents relevant to the project stage. Legal and tax terms need qualified review.
-- [YouTube thumbnail generator](skills/youtube-thumbnail-generator/SKILL.md) creates, reviews, and improves YouTube thumbnails with a native image tool or a paste-ready prompt package.
-- [Ad image generator](skills/ad-image-generator/SKILL.md) creates static ads for product and service brands. It uses a built-in creative playbook, adapts the image to its ad placement, and checks the finished result for clarity and brand accuracy.
-- [Messaging for Dummies](skills/messaging-for-dummies/SKILL.md) clarifies offers and writes buyer-relevant messaging. Its self-contained editing guidance removes generic AI writing patterns, preserves the brand's voice, and checks for ambiguity without inventing proof or promising conversions.
-- [Seedance video director](skills/seedance-video-director/SKILL.md) turns a video brief into a detailed Seedance 2.0 prompt. Its reference guides cover camera work, continuity, lighting, genre, and Seedance capabilities.
+## Find a skill for your task
 
-## How to use a skill
+| What you need to do | Skill | What it helps you produce |
+| --- | --- | --- |
+| Turn a video idea into a preproduction plan | [Prepro kit](skills/prepro-kit/SKILL.md) | A creative brief, treatment, two-column AV script, shot and resource breakdown, and project paperwork drafts. Start with an idea or request a specific document. |
+| Create or improve a YouTube thumbnail | [YouTube thumbnail generator](skills/youtube-thumbnail-generator/SKILL.md) | A thumbnail image through an available image tool, or a paste-ready prompt package with reference guidance. |
+| Design static ads for a product or service | [Ad image generator](skills/ad-image-generator/SKILL.md) | Ad images adapted to your brand, campaign, and placement, with a visual direction and clarity checks. |
+| Explain your offer and rewrite confusing marketing copy | [Messaging for dummies](skills/messaging-for-dummies/SKILL.md) | Buyer-relevant messaging that preserves your brand voice, clarifies the offer, and removes generic AI writing patterns. |
+| Turn a video brief into an AI video generation prompt | [Seedance video director](skills/seedance-video-director/SKILL.md) | A Seedance 2.0 prompt with camera direction, lighting, continuity, and scene instructions. |
 
-1. Open the skill you want inside `skills/`.
-2. Copy the whole skill folder into your agent's custom-skills directory. Keep its `SKILL.md` and every supporting file together.
-3. Start a new task and name the skill, or describe work that matches its purpose.
+## How to use these AI skills
 
-Install `prepro-kit` as one folder. Its modes live in `references/`, so there are no other skill dependencies. Ask for a creative brief, treatment, AV script, breakdown, specific project document, or the full workflow. The full workflow can begin with only a project idea; it marks unapproved choices as provisional and lists what is ready, pending, or not relevant. Supply approved company details and templates with the project when you need business documents. The public skill does not include private rates, payment details, or contract terms.
+1. Choose a skill from the table and read its `SKILL.md`.
+2. Copy the complete folder from `skills/` into your agent's custom-skills directory. Keep its supporting files together.
+3. Start a new task and name the skill. Supply your project context, brand assets, source material, and the output you need.
 
-For example, install `skills/seedance-video-director/` as a complete folder. Do not copy only its `SKILL.md`, because it reads files in `references/` when it needs them.
+For example, ask "Use prepro-kit to turn this video idea into a creative brief and AV script" or "Use messaging-for-dummies to make this service offer easier for buyers to understand."
 
-## Repository layout
+Install `prepro-kit` as one folder. Its modes live in `references/`. You can request the full workflow or one document. The skill marks unapproved choices as provisional. Supply approved company details and templates for business documents. Private rates, payment details, and contract terms are not included; legal and tax terms need qualified review.
 
-```text
-skills/
-  prepro-kit/
-    SKILL.md
-    references/
-  youtube-thumbnail-generator/
-    SKILL.md
-  ad-image-generator/
-    SKILL.md
-    references/
-  messaging-for-dummies/
-    SKILL.md
-    references/
-    agents/
-  seedance-video-director/
-    SKILL.md
-    references/
-```
+Image generation and document export depend on the tools available to your agent. A skill supplies guidance, not a subscription or access to a generation model. Review outputs before publishing or sending them to a client. These skills do not guarantee ad conversions or YouTube performance.
+
+## Repository structure
+
+Each skill lives in `skills/<skill-name>/` and contains a required `SKILL.md`. Supporting resources stay inside that folder.
 
 ## Adding a skill
 
-Create `skills/<skill-name>/SKILL.md`. Place the skill's scripts, templates, and reference files in the same folder. Then add it to the list above.
+Create `skills/<skill-name>/SKILL.md`. Add only the references, templates, assets, or scripts the skill needs. List the new skill in the task table so readers can find it as the collection grows.
