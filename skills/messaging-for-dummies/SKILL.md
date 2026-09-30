@@ -65,9 +65,9 @@ Complete this step when the draft can state the actual offer without implying un
 
 ## 4. Write for understanding
 
-When drafting or revising copy, read [natural copy](references/natural-copy.md). Apply its editing rules during this writing step and the existing interpretation check. This reference is self-contained; it requires no separately installed Unslop skill or additional review workflow.
+When drafting or revising copy, read [natural copy](references/natural-copy.md) for message priority, distinct supporting detail, brand expression, and optional headline techniques. Apply it during this step and the existing interpretation check. It requires no separately installed skill or additional review workflow.
 
-Choose the main point this artifact should communicate and the action it should support. Lead with the information that helps this buyer recognize the offer. Explain unfamiliar terms where they are needed. Preserve technical terms that carry useful precision for this audience. Support complex concepts with a short example or visual suggestion when words alone leave the relationship unclear.
+Choose the main buyer-relevant point this artifact should communicate and the action it should support. Explain unfamiliar terms where they are needed. Preserve technical terms that carry useful precision for this audience. Support complex concepts with a short example or visual suggestion when words alone leave the relationship unclear.
 
 Write in the supplied brand voice. Plain language can be warm, premium, playful, or technical. Clarity does not require a generic tone, a stock headline formula, an eyebrow, or a fixed number of sections.
 
@@ -77,7 +77,7 @@ For several campaign assets, keep the offer and material claims consistent while
 
 Deliver the requested copy first. Supply alternatives only when requested or when a distinct emphasis would help the user choose. If visual production is requested, hand off the audience, recognizable situation, supportable message, exact approved wording, real proof assets, and desired action. Distinguish this handoff from a generated image.
 
-Complete this step when the copy suits the placement, preserves the offer's conditions, and communicates a specific buyer-relevant point.
+Complete this step when the lead communicates the chosen buyer-relevant point, supporting copy advances it, and the artifact fits the placement while preserving the offer's conditions.
 
 ## 5. Check interpretation before delivery
 

@@ -4,11 +4,11 @@ This reference adapts Unslop's editing principles for marketing copy. Use it wit
 
 ## Make each sentence useful
 
-State a concrete capability, buyer situation, relevant benefit, or next step. Remove sentences that repeat the headline without adding information. Replace generic claims about innovation, excellence, or transformation with supplied specifics. When no supporting fact exists, narrow the statement rather than inventing one to make the copy more persuasive.
+Choose the strongest supported reason this buyer would care at this placement. Lead with the useful task, consequence, mechanism, or meaningful difference, whichever best answers the buyer's decision. Keep the product or service recognizable in the reader-visible copy. A category description can lead when identifying the offer is the reader's main need.
 
-Prefer a direct sentence such as "We film product demonstrations for online stores" over an abstract description of brand resonance. Explain how an outcome follows from the offer when that connection matters to the reader.
+Use supplied facts as material to prioritize. In short ads and spoken pitches, include the detail needed to explain the main point rather than listing every capability. Technical explanations and offer terms need the precision and qualifications required for an informed decision. When a benefit is uncertain, lead with the supported capability.
 
-Name the particular thing this buyer needs to understand or evaluate. When supplied facts identify a product function, deliverable, buying concern, or meaningful difference, use that detail instead of stopping at "clarity," "how it works," or "why it matters." General wording can fit an introductory message when details are unavailable. Keep that uncertainty visible in notes rather than inventing specificity.
+Give each headline, supporting sentence, and action a distinct job. After the lead, add the mechanism, proof, decision-critical condition, or next step the reader still needs. Keep repetition when it resolves ambiguity or preserves accuracy. Replace generic claims about innovation or transformation with supplied specifics; keep missing proof visible in notes.
 
 Research on concrete language in customer-service interactions supports attending to the customer's specific concern. Its findings are not a universal ad-conversion forecast. This skill applies specificity as an editorial principle. [Packard and Berger, Journal of Consumer Research](https://academic.oup.com/jcr/article/47/5/787/5873524).
 
@@ -34,7 +34,11 @@ Retain humor, distinctive vocabulary, imagery, and sentence rhythm that suit the
 
 Use punctuation and emphasis to organize the message. Prefer periods and commas for separating thoughts. Use sentence-case headings and restrained formatting by default, while preserving approved campaign styling. Format for the actual placement rather than applying a prose-paragraph style to every headline, label, or image caption.
 
-Natural copy can still be premium, playful, or technical. Preserve specific meaning and character instead of substituting a generic conversational voice.
+For a spoken pitch, read the sentence at a conversational pace. Simplify clause chains and stiff constructions while keeping the service and its useful purpose clear. Preserve distinctive phrasing that suits the voice and makes the point easier to remember.
+
+## Memorable headlines
+
+For headlines, consider a supported contrast or counterintuitive detail that makes the offer clearer and more memorable. Use direct wording when there is no meaningful contrast. Keep the offer identifiable and preserve its qualifications.
 
 ## Organize for the placement
 
