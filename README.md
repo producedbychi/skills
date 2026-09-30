@@ -9,6 +9,7 @@ The skills use the standard `SKILL.md` format, so they can work with Codex, Clau
 - [Pre-pro kit](skills/prepro-kit/SKILL.md) is one skill with brief, treatment, AV script, breakdown, and paperwork modes. It can define a project from scratch, develop a creative direction, write a two-column audio and video script, plan shots and resources, and draft the business documents relevant to the project stage. Legal and tax terms need qualified review.
 - [YouTube thumbnail generator](skills/youtube-thumbnail-generator/SKILL.md) creates, reviews, and improves YouTube thumbnails with a native image tool or a paste-ready prompt package.
 - [Ad image generator](skills/ad-image-generator/SKILL.md) creates static ads for product and service brands. It uses a built-in creative playbook, adapts the image to its ad placement, and checks the finished result for clarity and brand accuracy.
+- [Messaging for Dummies](skills/messaging-for-dummies/SKILL.md) clarifies offers and writes buyer-relevant messaging. Its self-contained editing guidance removes generic AI writing patterns, preserves the brand's voice, and checks for ambiguity without inventing proof or promising conversions.
 - [Seedance video director](skills/seedance-video-director/SKILL.md) turns a video brief into a detailed Seedance 2.0 prompt. Its reference guides cover camera work, continuity, lighting, genre, and Seedance capabilities.
 
 ## How to use a skill
@@ -33,6 +34,10 @@ skills/
   ad-image-generator/
     SKILL.md
     references/
+  messaging-for-dummies/
+    SKILL.md
+    references/
+    agents/
   seedance-video-director/
     SKILL.md
     references/

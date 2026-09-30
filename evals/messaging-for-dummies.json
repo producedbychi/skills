@@ -1,0 +1,237 @@
+{
+  "skill": "messaging-for-dummies",
+  "purpose": "Check decisions and factual fidelity, not exact wording. Run each case in isolation with the complete skill folder and the inputs below. These cases do not establish conversion performance.",
+  "cases": [
+    {
+      "id": "service-copy-only",
+      "request": "Rewrite this website introduction in plain language. Keep it confident and premium, and give me only the copy: We leverage cinematic narratives to elevate product engagement and empower brand resonance.",
+      "context": "The studio films and edits product demonstration videos for online stores. It supplies one edited video and three short cutdowns. No performance results, pricing, or delivery timeline were supplied.",
+      "pass_conditions": [
+        "The copy identifies product demonstration videos and the intended customer or use.",
+        "The requested tone remains confident without abstract phrasing obscuring the offer.",
+        "The answer contains only publishable copy, without an unnecessary interview, persona, or campaign plan.",
+        "The copy adds no conversion guarantee, testimonial, price, or delivery deadline."
+      ]
+    },
+    {
+      "id": "ambiguous-plan-boundaries",
+      "request": "Make this landing-page offer simpler: Unlimited video production. Fast turnaround. From $500. Guaranteed results.",
+      "context": "Approved facts: $500 per month, one active request at a time, first cut within five business days after receipt of an approved brief and required assets. Complex animation needs a separate quote. Unlimited refers to revisions on the active request. The company has no outcome guarantee.",
+      "pass_conditions": [
+        "The offer identifies a monthly plan with one active request at a time.",
+        "The wording limits unlimited revisions to the active request and does not promise unlimited simultaneous video delivery.",
+        "The timing retains its triggering conditions and the complex-animation exclusion remains visible where it affects the offer.",
+        "The draft does not retain or invent a guaranteed business outcome."
+      ]
+    },
+    {
+      "id": "technical-audience",
+      "request": "Clarify this product introduction for platform engineers: Our revolutionary orchestration substrate seamlessly leverages distributed operational excellence.",
+      "context": "The product coordinates PostgreSQL failover across Kubernetes clusters. It supports PostgreSQL 16 and 17. Avoid implying zero downtime, backups, or supported databases beyond PostgreSQL.",
+      "pass_conditions": [
+        "The draft retains the technical terms needed to identify the capability and intended audience.",
+        "It identifies PostgreSQL failover coordination across Kubernetes clusters.",
+        "It adds no zero-downtime claim, backup capability, or unsupported database coverage.",
+        "It does not replace useful precision with a childlike metaphor merely to lower a reading-grade score."
+      ]
+    },
+    {
+      "id": "sparse-buyer-evidence",
+      "request": "Develop a short homepage message for our scheduling service using these customer notes. We want it to feel relevant to independent studio owners.",
+      "context": "One customer said: I spend Sunday night chasing approvals. A second said: Clients forget which version to approve. The service sends approval reminders and shows the currently submitted file version. There is no research on weekend-work reduction or buyer identity, and no quantified time-savings evidence.",
+      "pass_conditions": [
+        "The message connects to approval chasing or version confusion through the actual service capabilities.",
+        "Any generalization about studio owners or their identity is provisional rather than an observed audience fact.",
+        "The draft adds no time-savings statistic or promise to eliminate weekend work.",
+        "If the response offers an explanation or audience inference, it separates the two observed quotes from broader interpretations. A capability-only copy response need not expose working research notes."
+      ]
+    },
+    {
+      "id": "existing-approved-headline",
+      "request": "I already approved the headline Show what the deck cannot. Write a short supporting line for a static ad. Keep the headline unchanged.",
+      "context": "Produced by Chi makes brand films for companies with complex offers. This is a messaging request only. No portfolio asset or image-generation request was supplied.",
+      "pass_conditions": [
+        "The approved headline remains unchanged wherever it appears.",
+        "The supporting copy identifies brand films rather than leaving the service implicit.",
+        "The response does not invent a client example, production result, or visual asset.",
+        "It delivers copy without claiming to have rendered an ad or audited a destination."
+      ]
+    },
+    {
+      "id": "actual-reader-test-unavailable",
+      "request": "Prove this appeal is easy to understand by testing it with donors: Your gift funds the next chapter.",
+      "context": "The nonprofit funds free adult literacy classes. No participants, consented contact list, research tool, or existing test results are available.",
+      "pass_conditions": [
+        "The response distinguishes an editorial review or test plan from actual donor testing.",
+        "It identifies that next chapter leaves the donation's use unclear and may propose a specific rewrite using the supplied purpose.",
+        "It proposes neutral comprehension questions and reports actual reader testing as not performed.",
+        "It does not fabricate respondents, comprehension rates, or donation improvement."
+      ]
+    },
+    {
+      "id": "necessary-qualification",
+      "request": "Make this easier to read and more persuasive. Keep it short: Clients may receive project files upon written request after final payment, excluding third-party licensed assets and materials we are not permitted to transfer.",
+      "context": "These are approved terms. This is a client-facing explanation, not authorization to change the rights or payment conditions.",
+      "pass_conditions": [
+        "The revision retains the written-request and final-payment conditions.",
+        "It preserves the conditional permission in may receive rather than creating a commitment to provide the files.",
+        "It preserves the exclusions for third-party licensed assets and nontransferable materials.",
+        "It does not imply automatic delivery or transfer of all rights.",
+        "It uses clear language while preserving the approved terms."
+      ]
+    },
+    {
+      "id": "natural-copy-with-brand-character",
+      "request": "Edit this homepage block. Keep the approved headline Show, don't tell. Keep the body confident and slightly playful, and return only the final copy. Body: We leverage cutting-edge visual narratives, fostering unparalleled engagement and empowering brands to unlock their full potential. Innovative. Impactful. Inspiring.",
+      "context": "The studio films and edits product demonstration videos for online stores. Each project includes one edited video and three short cutdowns. The headline is approved. No business results, delivery timeline, or testimonial is available.",
+      "pass_conditions": [
+        "The approved headline stays unchanged and the body identifies the actual service and use.",
+        "The copy replaces abstract praise and decorative phrases with the supplied capability or deliverables.",
+        "The voice retains deliberate character instead of becoming a generic formal explanation.",
+        "The draft preserves the factual quantity of three cutdowns rather than treating every group of three as a writing error.",
+        "Creative phrasing adds no unsupported coverage or deliverables, such as filming the product from every angle.",
+        "The response contains only final copy and adds no external-skill dependency, critique report, or performance claim."
+      ]
+    },
+    {
+      "id": "precision-through-style-edit",
+      "request": "Remove the AI-sounding filler from this product introduction, but preserve the technical meaning: Our cutting-edge platform seamlessly leverages PostgreSQL failover orchestration, fostering operational excellence across Kubernetes clusters.",
+      "context": "The product coordinates PostgreSQL failover across Kubernetes clusters. It supports PostgreSQL 16 and 17. These technical terms identify the product's actual capability. There is no evidence for zero downtime or improved uptime.",
+      "pass_conditions": [
+        "The copy identifies PostgreSQL failover coordination across Kubernetes clusters.",
+        "The style edit removes decorative praise without deleting the technical meaning.",
+        "The draft adds no zero-downtime claim or unsupported uptime result.",
+        "It makes the requested edit without installing or invoking a separate Unslop dependency."
+      ]
+    },
+    {
+      "id": "missing-material-offer",
+      "request": "Write a homepage offer for our AI marketing service.",
+      "context": "No service capabilities, audience, deliverables, or product-marketing context were supplied. The user has not requested a speculative draft.",
+      "pass_conditions": [
+        "The agent asks a focused question about what the service provides or the buyer it serves before inventing an offer.",
+        "It does not begin with an extensive intake questionnaire or demand every channel's analytics.",
+        "It does not fabricate automation capabilities, pricing, proof, or guaranteed results."
+      ]
+    },
+    {
+      "id": "prior-ai-draft-is-not-brand-proof",
+      "request": "Use our previous campaign document to write a short homepage introduction. Give me the copy only.",
+      "context": "Confirmed by the owner: the studio creates brand films. The previous AI-generated campaign draft, never confirmed as factual, says: We begin every project with buyer interviews and guarantee a finished film in seven days. The owner approved its headline Show what matters, but supplied no process, timing, or outcome evidence.",
+      "pass_conditions": [
+        "The draft identifies brand films using the confirmed service fact.",
+        "It does not assert that buyer interviews or seven-day delivery are part of the actual service.",
+        "Headline approval is not treated as confirmation of the unrelated process or timing claims.",
+        "It can complete the narrow copy request using known facts without a full campaign intake."
+      ]
+    },
+    {
+      "id": "specific-buyer-question-over-generic-clarity",
+      "request": "Write one short supporting line under the approved headline See the fit before you buy. Return only the line.",
+      "context": "The service produces product demonstration films for equipment manufacturers. For this campaign the owner confirmed that the films show how a replacement filter locks into a machine housing. Intended buyers need to see the attachment step. No compatibility guarantees, installation-time claim, or performance results are available.",
+      "pass_conditions": [
+        "The line identifies product demonstration films or clearly describes the filming service in context.",
+        "It names the filter attachment or locking step instead of offering only a generic statement about clarity or why products matter.",
+        "It adds no universal compatibility, speed, or commercial outcome claim.",
+        "It preserves the requested one-line scope and needs no further research to use the supplied detail."
+      ]
+    },
+    {
+      "id": "comprehension-is-not-demand",
+      "request": "People understand our landing page but still do not want the plan. Make the message stronger and tell me what you can conclude.",
+      "context": "Approved offer: a $900 monthly plan for twelve scheduled social posts, no video or paid-ad management. Three target buyers correctly described the offer and price, but said they publish only twice monthly and do not need twelve posts. No purchase experiment or other segment research exists.",
+      "pass_conditions": [
+        "The response identifies a relevance or offer-fit issue in these three responses rather than claiming a lower reading grade will solve it.",
+        "Any revised copy preserves the price, quantity, and service boundaries.",
+        "It does not invent a smaller plan, urgency, customer demand, or conversion lift.",
+        "It limits conclusions to the supplied sample and identifies what would need validation."
+      ]
+    },
+    {
+      "id": "actual-alternative-and-supported-difference",
+      "request": "Write two sentences explaining why a studio should choose our approval tool over its current process. Return only the copy.",
+      "context": "Two supplied customer interviews describe approving files by email and losing track of which file is current. The tool displays the currently submitted version and attaches comments to that version. These capabilities are confirmed. There is no evidence about rival tools, time savings, security advantages, or elimination of mistakes.",
+      "pass_conditions": [
+        "The comparison concerns email approvals, the supplied current approach, rather than a fabricated competitor.",
+        "The reason to choose the tool connects current-version display or version-linked comments to the documented confusion.",
+        "It makes no universal exclusivity, quantified time-savings, security, or error-elimination claim.",
+        "It does not require a complete competitor audit to answer this scoped request."
+      ]
+    },
+    {
+      "id": "long-copy-information-order",
+      "request": "Make this email easier for a customer to use. Keep all material terms and return only the email.",
+      "context": "The email leads with six sentences about a studio's passion and history. At the end it says the recipient needs to approve the attached storyboard by October 8 to keep the October 15 shoot date. Changes should be left as comments in the attached file. If approval arrives later, the shoot will be rescheduled subject to availability. These are approved project terms.",
+      "pass_conditions": [
+        "The approval request and October 8 deadline are easy to find before nonessential background.",
+        "The October 15 shoot date, comment method, and rescheduling condition remain accurate.",
+        "The copy uses enough structure to find the required action without an imposed multi-section marketing template.",
+        "It adds no new penalty, automatic approval, or guarantee of a later shoot slot."
+      ]
+    },
+    {
+      "id": "copy-cannot-repair-contradictory-visual",
+      "request": "Our service ad has a picture of a mystery industrial machine. People think we sell the machine. We actually sell product films. Fix the copy and tell me if it is ready.",
+      "context": "The service and confusion are supplied facts. There is no approved portfolio image or new image-generation request. The current headline is Show the detail.",
+      "pass_conditions": [
+        "The revised wording identifies the product-film service.",
+        "The response flags the need for a recognizable service or demonstration visual rather than declaring the current ad fixed by copy alone.",
+        "It does not claim that a replacement image was generated or that buyer comprehension was retested.",
+        "It keeps recommendations within the messaging and visual-handoff scope."
+      ]
+    },
+    {
+      "id": "retail-brand-voice-and-factual-scope",
+      "request": "Write two short product-page sentences for a playful premium chocolate brand. Keep the approved headline Break for something good. Return only the headline and copy.",
+      "context": "The brand sells a 70% dark chocolate bar with roasted hazelnuts, 80 grams per bar. No ingredient-origin certification, health benefits, dietary suitability, delivery terms, or commercial performance results were supplied.",
+      "pass_conditions": [
+        "The headline remains unchanged in wording and the copy identifies the chocolate bar and supplied product details.",
+        "The voice has deliberate character without an unsupported health, sourcing, or dietary claim.",
+        "It stays within the requested short-copy format rather than adding service-ad labels or research notes."
+      ]
+    },
+    {
+      "id": "discretionary-extra-work",
+      "request": "Rewrite this event-photography offer into two short sentences and return only the copy: Every precious moment, beautifully captured. Retouched images available on request. Forever yours.",
+      "context": "Approved terms: the service photographs a two-hour event and supplies 25 edited JPEGs. Additional retouched images may be supplied at the photographer's discretion after a written request. No complete-event coverage, copyright transfer, archival duration, or free extra work has been approved.",
+      "pass_conditions": [
+        "The copy preserves the two-hour event and 25 edited JPEG deliverables.",
+        "Extra retouched images remain discretionary and require a written request.",
+        "It makes no complete-coverage, copyright-transfer, perpetual-archive, or free-extra-work promise.",
+        "It completes the two-sentence rewrite without adding an unrelated contract or legal review."
+      ]
+    },
+    {
+      "id": "service-category-in-adjacent-copy",
+      "request": "Write one technical supporting line below the approved headline See the attachment step. Return only that line. This is an ad for a filmmaking studio, aimed at equipment manufacturers.",
+      "context": "The reader-visible layout already says Product demonstration films by Frame Studio. The supporting line should describe an approved shot showing a replacement filter locking into a housing. No compatibility or installation-speed evidence is available.",
+      "pass_conditions": [
+        "The line describes the supported shot or attachment step.",
+        "It uses the supplied reader-visible service label as context rather than requiring the service category to be repeated in every line.",
+        "It adds no compatibility or speed claim and returns only the requested line."
+      ]
+    },
+    {
+      "id": "explicit-buyer-hypothesis-from-sparse-evidence",
+      "request": "Give me a short buyer hypothesis and a homepage message for independent tutors. Show what in the evidence supports your hypothesis.",
+      "context": "Supplied raw interview excerpts: Tutor A said I text parents twice when a lesson invoice is late. Tutor B said I don't know which invoices parents have already opened. The software sends invoice reminders and displays an opened status. The owner believes tutors dislike admin but has no further evidence. No time-savings or payment-speed results have been measured.",
+      "pass_conditions": [
+        "The response connects invoice follow-up or opened-status uncertainty to the actual software capabilities.",
+        "It labels the broader buyer hypothesis provisional and distinguishes the owner's belief from the two raw interview observations.",
+        "It does not manufacture time savings, payment speed, testimonials, or audience prevalence.",
+        "It provides the requested short hypothesis, evidence explanation, and homepage message."
+      ]
+    },
+    {
+      "id": "warm-nonprofit-copy-with-enrollment-boundary",
+      "request": "Keep the warm headline A place to begin. Write a short appeal and CTA for our evening adult literacy classes. Please keep it inviting, not clinical. Return only the copy.",
+      "context": "The nonprofit provides free evening adult literacy classes in person. People must complete an enrollment request, after which a coordinator contacts them about class availability. An enrollment request does not guarantee a place. No job-placement, completion-time, or income outcomes were supplied.",
+      "pass_conditions": [
+        "The copy preserves the headline and identifies free in-person evening adult literacy classes.",
+        "The action is an enrollment request followed by coordinator contact about availability, not immediate guaranteed enrollment.",
+        "It adds no job-placement, completion-time, or income promise.",
+        "It keeps the requested warm short-copy format without a full fundraising plan."
+      ]
+    }
+  ]
+}
