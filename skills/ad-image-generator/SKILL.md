@@ -5,7 +5,7 @@ description: Create or revise finished static ad images for products, services, 
 
 # Ad image generator
 
-Make a static ad that communicates a specific offer and looks native to its placement. A polished image is not a proven converter. Use the built-in evidence to make better creative decisions, then judge performance only from real campaign results.
+Make a static ad that communicates a specific offer and fits its placement.
 
 ## Use the brief already available
 
@@ -13,7 +13,7 @@ Read the request, earlier chat, project files, and supplied brand assets. Distin
 
 For a new concept, read [the creative playbook](references/creative-playbook.md) and [art direction](references/art-direction.md). Read the requested placement in [the platform guide](references/platform-guidance.md). For a service with few usable assets, read [service visuals](references/service-visuals.md). When useful, use the [visual library index](references/visual-examples.md) to choose one or two relevant references. Before production, read the relevant section of [the production guide](references/production-guidance.md). For a narrow edit, load only what helps preserve and improve the approved direction. Check current official specifications when preparing final files or platform copy.
 
-Use this short decision card internally before rendering:
+Before rendering, complete this decision card internally. Share it only when the user asks for the rationale:
 
 - **Buyer moment:** Who sees the ad, how familiar are they with the offer, and what matters to them now?
 - **Offer and action:** What is being offered, and what should the viewer do?
@@ -30,13 +30,11 @@ Start with the approved message and the assets that can make it visible. For an 
 
 Choose a route from the creative playbook that fits the buyer, assets, and placement. A product may benefit from a use moment or decisive detail. A service can show its work, process, customer situation, or an illustrative metaphor. A typographic composition can carry the idea when the words are the strongest material. Make the service category clear enough that the image is not mistaken for an ad for its client's product. A camera or laptop needs a specific role beyond identifying the industry.
 
-Before rendering, name the subject, what it visibly does, and the buyer-relevant point it makes. A literal object needs an identifiable type and a relevant action; a conceptual image needs a visible relationship that the headline connects to the offer. If the point depends on explaining a mystery object or an arbitrary action outside the ad, change the idea or use a real supplied asset. Do this check before spending a render on composition or styling.
+Before rendering, name the subject, its visible action or relationship, and the buyer-relevant point. The selected image and headline must make that connection understandable within the ad. If they cannot, revise the idea or use a supplied asset before rendering.
 
 Use real supplied assets when identity matters. Do not invent client work, testimonials, metrics, product features, interface screens, or before-and-after results. If no real people or work samples are available, a generated scene may illustrate the category, but it must not imply that the people are actual staff or clients or that the scene documents this brand's work. A graphic or conceptual treatment may be more honest. Pick one lead concept. Make an alternative only when it tests a genuinely different visual idea or the user asks for options. Variations of the same layout are revisions, not new concepts.
 
-Translate the selected idea into renderable decisions: subject and action, medium, scale and crop, light or graphic contrast, brand cues, and type hierarchy. Replace adjectives such as "premium" or "eye-catching" with the visible choices that create that effect. Carry these choices into the generation prompt, not just the rationale. Use the art-direction guide to resolve weak choices. The image and headline should address the same buyer and promise. Decide which words belong in the image and which belong in platform fields. Keep custom CTA wording in copy unless the platform supports it as a native button label.
-
-Plan how the text fits into the composition before rendering. Specify its placement and the actual background behind it, using the typography guidance in [art direction](references/art-direction.md). A request for readable text does not itself call for a filled bar or panel.
+Write the generation prompt with the chosen subject and action, medium, scale and crop, lighting, brand cues, and type hierarchy. Use [art direction](references/art-direction.md) to specify how the text fits into the composition and what sits behind it. Replace broad style adjectives with visible choices. Decide which words belong in the image and which belong in platform fields. Keep custom CTA wording in copy unless the platform supports it as a native button label.
 
 ## Produce the ad
 
@@ -48,4 +46,4 @@ If there is no image tool, or the user wants another generator, deliver one past
 
 Inspect the complete ad at full size and realistic feed size. In one pass, ask whether a new viewer can tell what is shown, what is being sold, and why it matters. Check the intended first read, whether the text treatment fits the visual idea and brand, visible brand and action, exact words, claims, supplied-asset fidelity, and requested crop. Small supporting copy should not carry the whole offer. An image without action text may use the platform's native CTA; the image must not imitate a button.
 
-If the placement assembles the image with separate copy and branding, judge offer clarity in that assembled view when available. Check live specifications and a platform preview before calling an export upload-ready. If the ad passes, deliver it without extra revisions. If it fails, name the visible defect, make one focused repair, and inspect again. If the repair repeats the defect, change the production method or report the limitation. Deliver one finished lead ad or prompt package, its placement, and a short creative hypothesis. Report only checks actually performed. Judge performance only from later results for the exact creative, audience, and placement.
+If the placement assembles the image with separate copy and branding, judge offer clarity in that assembled view when available. Check live specifications and a platform preview before calling an export upload-ready. If the ad passes, deliver it without extra revisions. If it fails, name the visible defect, make one focused repair, and inspect again. If the repair repeats the defect, change the production method or report the limitation. Save project-bound images to a versioned location. Deliver the lead ad or requested prompt package, its placement, and a short creative hypothesis. Report only checks actually performed. Judge performance only from later results for the exact creative, audience, and placement.

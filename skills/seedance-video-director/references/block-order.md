@@ -23,7 +23,7 @@ Camera Capture
 **Optional and conditional:**
 - **Active References** — only when references are attached
 - **Cross-Frame Rules** — only with two or more subjects, or internal cuts
-- **Capture Realism** — ships by default; drop only when the user asks for a glossy, clean or commercial-slick register
+- **Capture Realism** applies to live-action capture treatments. Omit or adapt it for animation, a glossy commercial, or another explicitly requested style.
 - **Format Mode** — a single line before Frame Map when the shot is a controlled multi-shot rather than a oner
 
 **Never a separate block:** a style header at the top, a negative-constraints block at the bottom, output settings the user sets in the UI.
@@ -112,8 +112,7 @@ Default camera energy is handheld with breath and organic operator drift. **Lock
 
 ## Word budget
 
-- Single-shot scene: 280–400 words in the prompt body
-- Multi-shot: up to 600
+Use the word targets and simple-request exception in the main skill. Add detail where the diagnosis shows it is needed.
 
 Density belongs where control matters — identity anchors, spatial blocking, first frame, gaze, landmark proximity, hand and prop states, timed action, optics, lighting, physics, dialogue. Density is wasted on generic beauty description, non-critical wardrobe, background extras, inactive props, and anything already visible in a reference.
 

@@ -4,9 +4,7 @@ Use this guide after choosing the claim and visual route. Let the offer, brand a
 
 ## Choose a visual concept with a job
 
-Write one sentence describing the image's point: "The supplied repair photos make the change in the tile visible to a homeowner." Name the subject, what it visibly does, the buyer's takeaway, and the link to this offer. If a literal object has no identifiable type or its action does not explain the message, choose another subject before rendering. A metaphor needs a visible relationship and copy that names the service; do not depend on a later explanation of what the image means.
-
-Choose the moment or object that carries the point. A product ad might show a real detail relevant to its use. A bookkeeping service might show an approved report under review. Use metaphor when its meaning is quick to read and it does not pose as evidence.
+Develop the visual anchor selected in the decision card. For example, supplied repair photos can make a change in tile visible to a homeowner, while an approved report can show the work of a bookkeeping service. Choose the moment or detail that carries the buyer's point. A metaphor explains the offer; it does not establish evidence of results.
 
 Give the composition a clear first read and useful second read. The first can be the product, person, result, or headline. The second can explain context or brand. Remove competing elements.
 
@@ -26,7 +24,7 @@ Typography should serve the message and brand. Use supplied type when available.
 
 Create room for text through subject placement, crop, light, or a quiet area of the background. Use type size, weight, color, and surrounding space to make it readable within that composition. If the area is too busy, adjust the composition or background before adding a separate text container.
 
-Choose a filled bar, banner, or panel when it has a role in the idea or an established brand treatment. Readability alone does not make one the default, and these treatments remain available when they suit the brief. Specify what sits behind each text area in the prompt, such as the continuous dark studio background or an open part of the photograph. A "footer" names a position; it does not specify a filled strip. Avoid leaving that choice to vague wording such as "high-contrast footer."
+Choose a filled bar, banner, or panel when it has a role in the idea or an established brand treatment. Specify the chosen background behind each text area, such as the continuous dark studio background, an open part of the photograph, or a deliberate panel. A "footer" names a position; specify its actual treatment rather than leaving it to the generator.
 
 ## Give the action deliberate emphasis
 
@@ -36,7 +34,7 @@ Choose the treatment from the brand and composition. A plain text line can gain 
 
 Specify the CTA's placement, relative prominence, and treatment in the generation prompt. During review, inspect it at feed size. If it disappears, adjust the cause: enlarge small lettering, strengthen contrast, simplify the area behind it, or move it into the composition's reading path. Preserve the headline and visual hierarchy while making the next step easy to find.
 
-## Diagnose the two common misses
+## Diagnose common misses
 
 Diagnose the composition before changing the concept. Correct one cause at a time; keep the mood suited to the brand.
 
@@ -52,5 +50,3 @@ Examples:
 | Metaphor is described only as "a shape suggesting clarity" | Specify the visible relationship, such as overlapping lines resolving into one readable path. Check that the service remains identifiable. |
 
 Use a brand's actual deliverables and product details when they are supplied and approved. For example, a consultant's floor plan needs that source asset. Ordinary props and clearly illustrative scenes may be generated when they explain the offer without posing as evidence.
-
-Before rendering, state the focal subject, first and second read, crop, light, brand cues, and text placement.

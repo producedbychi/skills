@@ -17,27 +17,7 @@ If no images, videos, or audio are attached AND the user hasn't asked about cons
 
 ## Prompt structure
 
-Standard Seedance prompt structure applies. The format depends on the brief:
-
-```
-[Subject] + [action sequence] + [environment / lighting] + [camera language] + [style keywords]
-```
-
-Or in the longer format used by this skill:
-
-```
-[Cinematic opening line]
-
-[Subject + environment + atmosphere paragraph]
-
-[Shot or beat content per format]
-
-[Optional SFX block]
-
-[Optional negative prompt]
-
-Total: [Xs] / [N shots] / [aspect ratio]
-```
+Use the labeled blocks in [block order](../block-order.md), omitting Active References. Define each subject in words and keep its identity consistent. Place style details in the blocks they affect and output specifications outside the prompt.
 
 ---
 
@@ -79,7 +59,7 @@ Include style keywords explicitly, distributed into their home blocks per `block
 
 > "Cinematic action realism, ARRI ALEXA aesthetic, 35mm anamorphic, controlled handheld, Industrial Noir grade, deep shadows, halation on highlights, fine grain, 16:9, 24fps."
 
-This single line locks the visual aesthetic. Without it, text-only generations drift toward generic stock-footage look.
+Treat this line as a set of choices to distribute into the matching blocks, not an extra style prefix. These choices describe the intended result; they do not guarantee model behavior.
 
 ---
 
@@ -96,7 +76,7 @@ This single line locks the visual aesthetic. Without it, text-only generations d
 
 ## Multiple versions when text-only
 
-For text-only requests, especially exploratory ones, produce **2–3 versions** with different design intents. Each version represents a different interpretation of the brief.
+Default to the single prompt specified in the main skill. When the user requests exploration or options, produce differentiated interpretations of the brief.
 
 Example versions for "a coffee mug on a counter":
 - **Version A — editorial product:** macro detail of the mug's rim, soft directional light, shallow depth, controlled push-in

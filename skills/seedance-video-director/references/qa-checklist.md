@@ -1,6 +1,6 @@
-# Silent QA — run before every delivery
+# Quality checks
 
-Answer these silently. Never output the checklist, the answers, or any mention that a QA pass happened. If any answer is no, fix the prompt before delivering it.
+Apply these checks to the selected capability and format. A reference-only, cut-only, or realism-only check can be not applicable. Fix failed checks before delivery; report unresolved dependencies rather than inventing inputs.
 
 ---
 
@@ -8,8 +8,8 @@ Answer these silently. Never output the checklist, the answers, or any mention t
 
 - Is every tag in the prompt actually used in this shot?
 - Are all stale tags from previous prompts gone?
-- Does every named subject have its own canonical reference tag, even the ones visible in the plate?
-- Is the plate's role stated as geography and materials rather than framing?
+- For reference-dependent subjects, does each have a supplied canonical identity reference, including subjects visible in a plate? For text-only subjects, is identity defined consistently without invented tags?
+- When a plate is supplied, is its role explicit? Does a requested first-frame or last-frame reference retain its framing role?
 - Are scene numbers, script headers, prior-scene summaries and "same as before" phrasing all gone?
 - Are platform names, tool names and meta-commentary all gone?
 
@@ -21,7 +21,7 @@ Answer these silently. Never output the checklist, the answers, or any mention t
 - Is landmark proximity anchored by contact or a metric, not by "near"?
 - Are props in the correct hands with contact points named?
 - Does each subject have its own Subject Lock block with a lock-down line?
-- Is wardrobe left to the reference rather than re-described?
+- Does wardrobe follow the supplied reference, or the written description for a text-only subject?
 - Is the prompt age-blind throughout?
 
 ## Optics
@@ -30,12 +30,12 @@ Answer these silently. Never output the checklist, the answers, or any mention t
 - Does the lens character match the content class of the beat?
 - Are content classes kept out of each other's beats?
 - Is the lens protected from drift where drift was a risk?
-- Is there exactly one camera spec in the whole prompt?
+- Is there one closing Camera Capture block, with each shot's camera differences stated inside it when needed?
 
 ## Light, physics, motion
 
-- Is the light source, direction, camera side and exposure priority all stated?
-- Is the lighting protected from going flat?
+- Does the lighting describe the requested style? For directional lighting, are its source, direction, camera side, and exposure priority clear?
+- Does the lighting preserve the selected intent, including flat or evenly lit treatment when requested?
 - Is every colour tied to a surface, a source and a purpose?
 - Are the actions physically possible in the available runtime?
 - Does the motion have contact, weight transfer and follow-through where it matters?
@@ -43,7 +43,7 @@ Answer these silently. Never output the checklist, the answers, or any mention t
 
 ## Structure and timing
 
-- Is the cuts precision register chosen and stated correctly?
+- For prompts with cuts, is the cuts precision register chosen and stated correctly?
 - Does every cut have a reason, and does the continuity carry list hold across it?
 - Are timing blocks internally consistent, and do per-shot times sum to the runtime?
 - Do the title runtime and the Camera Capture runtime match?
@@ -54,7 +54,7 @@ Answer these silently. Never output the checklist, the answers, or any mention t
 
 - Is dialogue only the scripted line, with its timing stated?
 - Do body sounds in Sound Bed have corresponding visible body motion in Movement?
-- Is the on-screen text suppression line present at the close of Last Frame?
+- If on-screen text is requested, are its wording and placement explicit? Otherwise, is the text suppression line present at the close of Last Frame?
 
 ## Craft
 
@@ -62,5 +62,5 @@ Answer these silently. Never output the checklist, the answers, or any mention t
 - Is the phrasing positive, with negatives only as trailing clauses on the locks they protect?
 - Is style distributed rather than prefixed?
 - Is the antislop list clean?
-- Is the word count inside budget — 280–400 single shot, up to 600 multi-shot?
+- Does the prompt fit the main skill's word target, with any shorter simple prompt still containing the controls its action requires?
 - Is the whole prompt in English?
