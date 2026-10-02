@@ -1,6 +1,6 @@
 # Produced by Chi skills
 
-This is my personal collection of AI agent skills for creative production and marketing. Use them to plan video projects, generate ad images and YouTube thumbnails, direct AI video, and write clearer marketing copy.
+This is my personal collection of AI agent skills for creative production and marketing. Use them to define brand positioning, plan video projects, generate ad images and YouTube thumbnails, direct AI video, and write clearer marketing copy.
 
 I develop these skills through my work at Produced by Chi. They are built for creative studios, production companies, agencies, marketers, and creators. The collection will grow as I develop tools for more creative and business tasks.
 
@@ -10,6 +10,7 @@ Each skill gives an AI agent instructions for a specific job, with supporting re
 
 | What you need to do | Skill | What it helps you produce |
 | --- | --- | --- |
+| Decide who your brand serves and why buyers should choose it | [Brand edge](skills/brand-edge/SKILL.md) | Distinctive brand positioning and core messaging grounded in customer insights, credible advantages, and competitive alternatives. Start with an idea or refine an existing strategy. |
 | Turn a video idea into a preproduction plan | [Prepro kit](skills/prepro-kit/SKILL.md) | A creative brief, treatment, two-column AV script, shot and resource breakdown, and project paperwork drafts. Start with an idea or request a specific document. |
 | Create or improve a YouTube thumbnail | [YouTube thumbnail generator](skills/youtube-thumbnail-generator/SKILL.md) | A thumbnail image through an available image tool, or a paste-ready prompt package with reference guidance. |
 | Design static ads for a product or service | [Ad image generator](skills/ad-image-generator/SKILL.md) | Ad images adapted to your brand, campaign, and placement, with a visual direction and clarity checks. |
