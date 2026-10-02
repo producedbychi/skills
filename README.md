@@ -6,6 +6,26 @@ I develop these skills through my work at Produced by Chi. They are built for cr
 
 Each skill gives an AI agent instructions for a specific job, with supporting references, templates, or scripts where needed. The skills use the `SKILL.md` format for Codex, Claude Code, and other agents that support custom skills.
 
+## Install and update
+
+With Node.js and Git installed, run and choose the skills you want:
+
+```bash
+npx skills add producedbychi/skills
+```
+
+Add `--skill brand-edge` to select one skill, or `-g` to install across projects.
+
+Update skills installed through the CLI:
+
+```bash
+npx skills update
+```
+
+The updater lets you choose project or global scope. Back up local customizations first. To install new skills added to this collection, run the install command again.
+
+See the [Skills CLI documentation](https://github.com/vercel-labs/skills) for previewing skills, agent selection, and other options.
+
 ## Find a skill for your task
 
 | What you need to do | Skill | What it helps you produce |
@@ -20,7 +40,7 @@ Each skill gives an AI agent instructions for a specific job, with supporting re
 ## How to use these AI skills
 
 1. Choose a skill from the table and read its `SKILL.md`.
-2. Copy the complete folder from `skills/` into your agent's custom-skills directory. Keep its supporting files together.
+2. Install it with the command above, or copy the complete folder from `skills/` into your agent's custom-skills directory. Keep its supporting files together.
 3. Start a new task and name the skill. Supply your project context, brand assets, source material, and the output you need.
 
 For example, ask "Use prepro-kit to turn this video idea into a creative brief and AV script" or "Use messaging-for-dummies to make this service offer easier for buyers to understand."
