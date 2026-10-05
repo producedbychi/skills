@@ -1,6 +1,6 @@
 ---
 name: brand-edge
-description: Develop distinctive brand positioning and core messaging from customer insights, competitive alternatives, and credible business advantages. Use for a new brand, repositioning, or a campaign's strategic foundation. Connect the chosen position to the offer, identity, and route to the customer. Preserve established strategy for wording-only edits.
+description: Brand positioning and differentiation grounded in customer insights, competitive alternatives, and credible business advantages. Use for a new brand, repositioning, or a campaign's strategic foundation. Develop core messaging and connect the chosen position to the offer, identity, and route to the customer. Preserve established strategy for wording-only edits.
 ---
 
 # Brand edge
