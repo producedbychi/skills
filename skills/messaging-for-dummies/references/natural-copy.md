@@ -8,6 +8,8 @@ Choose the strongest supported reason this buyer would care at this placement. L
 
 Use supplied facts as material to prioritize. In short ads and spoken pitches, include the detail needed to explain the main point rather than listing every capability. Technical explanations and offer terms need the precision and qualifications required for an informed decision. When a benefit is uncertain, lead with the supported capability.
 
+To make a capability relevant, connect it to what it lets this buyer do, then to why that matters in their situation. Stop where the evidence stops. For example, an API that returns timestamps in UTC lets a team compare events across time zones without converting local offsets. If cross-region comparison is the task, that technical detail may be the reason to choose it. A mug with a thumb rest gives the thumb a place to settle. Someone who enjoys a tactile, settled grip may value that small pleasure.
+
 Give each headline, supporting sentence, and action a distinct job. After the lead, add the mechanism, proof, decision-critical condition, or next step the reader still needs. Keep repetition when it resolves ambiguity or preserves accuracy. Replace generic claims about innovation or transformation with supplied specifics; keep missing proof visible in notes.
 
 Research on concrete language in customer-service interactions supports attending to the customer's specific concern. Its findings are not a universal ad-conversion forecast. This skill applies specificity as an editorial principle. [Packard and Berger, Journal of Consumer Research](https://academic.oup.com/jcr/article/47/5/787/5873524).

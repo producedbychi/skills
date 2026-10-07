@@ -17,6 +17,12 @@ Identify which change would materially improve the chosen customer's experience.
 
 Other models can use the same questions about recipient, offer, delivery, and decision. These categories are examples, not exhaustive divisions.
 
+## Audit a scoped brand promise
+
+When asked to audit a promise, compare the exact claim with the touchpoints and delivery evidence available for the stated scope. Inspect relevant materials such as the website, sales materials, ads, onboarding, service interactions, customer feedback, or fulfillment records. Name what you inspected and when. A public comment or one customer's account is evidence about that source, not proof of a wider pattern.
+
+For each mismatch, quote or summarize the promise, identify the observed contradiction or missing support, and state its source. Separate copy problems from delivery problems. Mark uninspected touchpoints, unverified outcomes, and unavailable records as unknown. Recommend a copy change when wording overstates the evidence; recommend an operational change when the business does not deliver the promise. Keep proposed changes subject to the brand's approval and any needed operational or professional review.
+
 ## Make brand expression recognizable and useful
 
 Describe the desired perception and how it supports the chosen strategy. Preserve approved names, logos, colors, and voice. Propose identity changes only when they solve an identified problem and fall within the assignment.

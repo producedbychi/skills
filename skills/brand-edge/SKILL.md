@@ -1,6 +1,6 @@
 ---
 name: brand-edge
-description: Brand positioning and differentiation grounded in customer insights, competitive alternatives, and credible business advantages. Use for a new brand, repositioning, or a campaign's strategic foundation. Develop core messaging and connect the chosen position to the offer, identity, and route to the customer. Preserve established strategy for wording-only edits.
+description: Brand positioning and differentiation grounded in customer insights, competitive alternatives, and credible business advantages. Use for a new brand, repositioning, or a campaign's strategic foundation. Develop core messaging and connect the chosen position to the offer, identity, and route to the customer. Also supports taglines from approved positioning and scoped audits of brand promises. Preserve established strategy for wording-only edits.
 ---
 
 # Brand edge
@@ -11,7 +11,7 @@ The result is a strategic brief and messaging foundation. Adapt its depth to the
 
 ## 1. Establish the decision
 
-Read the request, relevant conversation, supplied materials, and available brand or product-marketing context. Reuse approved positioning and constraints. Earlier AI drafts are proposals, not proof of capabilities or customer demand.
+Read the request, relevant conversation, supplied materials, and available brand or product-marketing context. Reuse approved positioning and constraints. For taglines, follow [taglines](references/taglines.md). A tagline-only request uses that workflow instead of the full positioning process. Earlier AI drafts are proposals, not proof of capabilities or customer demand.
 
 Identify what needs deciding, such as a new brand's audience, an existing offer's differentiation, or a campaign's lead promise. Establish the scope, business objective, actual offer, and what must stay unchanged. For an established brand, distinguish a messaging problem from a positioning or product problem before recommending change.
 
@@ -69,7 +69,7 @@ Complete this step when the core message expresses the chosen strategy, the read
 
 For a full brand strategy, connect the recommendation to the relevant business and creative decisions. For a narrow positioning assignment, include only the implications needed to act on that choice.
 
-Read [brand application](references/brand-application.md) when translating strategy into offer design, brand expression, partnerships, distribution, or extensions. For each recommendation, state the buyer need it serves, what to keep or change, and the dependency or uncertainty. Prioritize the changes needed to make the promise true before cosmetic changes.
+Read [brand application](references/brand-application.md) when translating strategy into offer design, brand expression, partnerships, distribution, or extensions, and when conducting a scoped audit of a brand promise against customer touchpoints and delivery. For each recommendation, state the buyer need it serves, what to keep or change, and the dependency or uncertainty. Prioritize the changes needed to make the promise true before cosmetic changes.
 
 Use approved names and brand assets unless the assignment includes revising them. Distinguish creative suggestions from finished designs and prospective partners from actual agreements. Preserve the audience's dignity. Shared identity can support relevance without treating that identity as a defect.
 

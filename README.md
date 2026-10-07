@@ -30,7 +30,8 @@ See the [Skills CLI documentation](https://github.com/vercel-labs/skills) for pr
 
 | What you need to do | Skill | What it helps you produce |
 | --- | --- | --- |
-| Decide who your brand serves and why buyers should choose it | [Brand edge](skills/brand-edge/SKILL.md) | Distinctive brand positioning and core messaging grounded in customer insights, credible advantages, and competitive alternatives. Start with an idea or refine an existing strategy. |
+| Decide who your brand serves and why buyers should choose it | [Brand edge](skills/brand-edge/SKILL.md) | Distinctive positioning and core messaging, with optional workflows for taglines and scoped brand-promise audits. Start with an idea or refine an approved strategy. |
+| Turn approved positioning into a campaign idea | [Campaign concept](skills/campaign-concept/SKILL.md) | A creative concept and practical execution brief for the requested ads, video, or landing-page touchpoints. |
 | Turn a video idea into a preproduction plan | [Prepro kit](skills/prepro-kit/SKILL.md) | A creative brief, treatment, two-column AV script, shot and resource breakdown, and project paperwork drafts. Start with an idea or request a specific document. |
 | Choose a project's visual direction and prepare references for review | [Moodboard builder](skills/moodboard-builder/SKILL.md) | Annotated moodboards and visual-direction decks for client review, with source records and editable PowerPoint and PDF exports. |
 | Create or improve a YouTube thumbnail | [YouTube thumbnail generator](skills/youtube-thumbnail-generator/SKILL.md) | A thumbnail image through an available image tool, or a paste-ready prompt package with reference guidance. |
